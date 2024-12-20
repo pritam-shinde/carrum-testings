@@ -33,7 +33,7 @@ const PaymentPlan = () => {
             <Container
                 maxWidth="xxl"
                 sx={{
-                    margin: { xs: "40px 0px 40px 0px", md: "80px 0px 80px 0px" },
+                    margin: { xs: "40px 0px 40px 0px", md: "60px 0px 60px 0px" },
                 }}
             >
                 <Grid container>

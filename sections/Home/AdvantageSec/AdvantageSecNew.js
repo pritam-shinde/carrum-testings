@@ -60,11 +60,11 @@ const AdvantageSecNew = () => {
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
-                                <span>We are OPEN </span> <span>ALL 7 DAYS</span>
+                                <span className="me-2">We are OPEN</span>
+                                <span> 7 DAYS</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "left" }}>
-                                We are open after hours by appointment and also open on
-                                Saturdays.
+                                Providing services every day for your convenience.
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={6} md={3}>
@@ -80,7 +80,7 @@ const AdvantageSecNew = () => {
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
-                                <span>Modern</span> <span>Dentistry</span>
+                                <span className="me-2">Modern</span> <span>Dentistry</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "right" }}>
                                 The field of dentistry is constantly evolving. New techniques
@@ -138,11 +138,10 @@ const AdvantageSecNew = () => {
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
-                                <span>Dental</span> <span>Insurance</span>
+                                <span className="me-2">Dental</span> <span>Insurance</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "left" }}>
-                                We accept most dental insurance and public dental vouchers (CDBS
-                                and VDS).
+                                Carrum Downs Dental Group is a HCF and NIB Preferred Provider. We accept most Dental Insurance and also public dental vouchers (CDBS, CBHS, West Fund, SMILE.COM.AU, VEDS and VGDS.).
                             </Typography>
                         </Grid>
                         <Grid item xs={12} sm={6} md={3}>
@@ -158,10 +157,10 @@ const AdvantageSecNew = () => {
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
-                                <span>Dental</span> <span>Emergency</span>
+                                <span className="me-2">Dental</span> <span>Emergency</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "right" }}>
-                                Starting your day with a missing tooth or pain? Call us now.
+                                Starting your day with a missing tooth or even worse – extreme pain and don’t know where to go? Call us now.
                             </Typography>
                         </Grid>
                     </Grid>

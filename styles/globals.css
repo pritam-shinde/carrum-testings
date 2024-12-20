@@ -116,8 +116,8 @@ a {
 }
 
 a:hover {
-  color: #000 !important;
-  /* color: var(--dark-green) !important; */
+  /* color: #000 !important; */
+  color: var(--dark-green) !important;
 }
 
 ul {
@@ -1112,7 +1112,7 @@ a #home-link {
 }
 
 .view-hover-btn {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 .view-hover-btn:hover {

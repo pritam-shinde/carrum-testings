@@ -97,6 +97,21 @@ const OfferNew = () => {
                                     >
                                         <Box
                                             sx={{
+                                                position: "absolute",
+                                                top: 10,
+                                                right: 10,
+                                                backgroundColor: "#115278",
+                                                color: "#fff",
+                                                padding: "5px 10px",
+                                                borderRadius: "20px",
+                                                fontWeight: "bold",
+                                                zIndex: 99,
+                                            }}
+                                        >
+                                            {item.price}
+                                        </Box>
+                                        <Box
+                                            sx={{
                                                 position: "relative",
                                             }}
                                         >
@@ -112,6 +127,7 @@ const OfferNew = () => {
                                                     opacity: 0,
                                                     padding: 3,
                                                     transition: "opacity 0.5s ease",
+                                                    zIndex: 100,
                                                     "&:hover": {
                                                         opacity: 1,
                                                     },
@@ -167,7 +183,7 @@ const OfferNew = () => {
                             ))}
                         </Grid>
                     </Box>
-                    <Box>
+                    <Box py={3}>
                         <Box className="text-center">
                             <BlueFilledBtn
                                 navlink={true}
