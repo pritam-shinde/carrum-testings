@@ -13,7 +13,7 @@ const ServiceSectionNew = () => {
             <Container
                 maxWidth="xxl"
                 id="service"
-                sx={{ padding: { xs: "40px 0px 40px 0px", md: "80px 0px 80px 0px" } }}
+                sx={{ padding: { xs: "40px 24px 40px 24px", sm: "40px 24px 40px 24px", md: "80px 0px 80px 0px" } }}
             >
                 <Grid container>
                     <Grid item xs={12} md={10} className="mx-auto">
