@@ -1,0 +1,16 @@
+/* Topbar.module.css */
+
+.topbarShow {
+  display: block;
+}
+.topbarHide {
+  display: none;
+}
+.topbarIcons {
+  margin-right: 0.2rem;
+  font-size: 14.4px !important;
+}
+.topbarText {
+  font-size: 14.4px !important;
+  width: fit-content;
+}
