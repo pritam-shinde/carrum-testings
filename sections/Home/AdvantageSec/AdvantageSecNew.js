@@ -56,11 +56,11 @@ const AdvantageSecNew = () => {
                                     mb: 1,
                                     textAlign: isSmallScreen ? "left" : "left",
                                     display: "flex",
-                                    flexDirection: "column",
+                                    flexDirection: isSmallScreen ? "row" : "column",
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
-                                <span>After Hour</span> <span>Appointments</span>
+                                <span>We are OPEN </span> <span>ALL 7 DAYS</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "left" }}>
                                 We are open after hours by appointment and also open on
@@ -76,7 +76,7 @@ const AdvantageSecNew = () => {
                                     mb: 1,
                                     textAlign: isSmallScreen ? "left" : "right",
                                     display: "flex",
-                                    flexDirection: "column",
+                                    flexDirection: isSmallScreen ? "row" : "column",
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
@@ -134,7 +134,7 @@ const AdvantageSecNew = () => {
                                     mb: 1,
                                     textAlign: isSmallScreen ? "left" : "left",
                                     display: "flex",
-                                    flexDirection: "column",
+                                    flexDirection: isSmallScreen ? "row" : "column",
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
@@ -154,7 +154,7 @@ const AdvantageSecNew = () => {
                                     mb: 1,
                                     textAlign: isSmallScreen ? "left" : "right",
                                     display: "flex",
-                                    flexDirection: "column",
+                                    flexDirection: isSmallScreen ? "row" : "column",
                                 }}
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >

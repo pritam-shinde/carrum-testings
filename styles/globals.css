@@ -154,6 +154,12 @@ li.nav-item.dropdown:hover .dropdown-menu {
   background: rgba(255, 255, 255, 0.3);
 }
 
+li.nav-item.dropdown:hover .dropdown-menu.inner-dropdown {
+  left: unset !important;
+  top: unset !important;
+  background: rgba(255, 255, 255, 1);
+}
+
 /* footer {
   background-color: var(--dark-green) !important;
 } */
@@ -397,15 +403,6 @@ footer a:hover {
 
   .video-embed iframe {
     height: 100%;
-  }
-
-  /* about home page */
-  .css-fysntr {
-    height: 130vh !important;
-  }
-
-  .about-content {
-    height: 130vh !important;
   }
 }
 

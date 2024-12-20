@@ -17,7 +17,7 @@ const AboutNew = () => {
                 style={{
                     marginTop: "auto",
                     marginBottom: "auto",
-                    height: "100%",
+                    minHeight: "100%",
                 }}
                 maxWidth="xxl"
             >
@@ -28,8 +28,9 @@ const AboutNew = () => {
                         md={10}
                         className="mx-auto"
                         style={{
-                            borderTopRightRadius: "24px",
-                            borderBottomRightRadius: "24px",
+                            // borderTopRightRadius: "24px",
+                            // borderBottomRightRadius: "24px",
+                            borderRadius: "24px",
                             padding: "44px",
                             backgroundColor: "rgba(17,82,115,1)",
                             backdropFilter: "blur(34px)",
@@ -40,7 +41,7 @@ const AboutNew = () => {
                     >
                         <Stack spacing={1} maxWidth={760} marginLeft={"auto"}>
                             <Box>
-                                <Typography component="h2" variant="h1" className="text-white">
+                                <Typography component="h2" className="text-white">
                                     Welcome to Carrum Downs Dental at Shop T5, Hall Road!
                                 </Typography>
                                 <p className="fs-5 fw-bold text-light">

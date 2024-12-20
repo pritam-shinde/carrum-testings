@@ -173,7 +173,7 @@ const Hero = () => {
         >
           <Grid container>
             <Grid item xs={12} md={10} className="mx-auto">
-              <Stack gap={{ xs: 0, md: 6 }} paddingTop={{ xs: "60px", sm: 0 }}>
+              <Stack gap={{ xs: 0, md: 8 }} paddingTop={{ xs: "60px", sm: 0 }}>
                 <Box
                   sx={{ maxWidth: "fit-content" }}
                   className="d-none d-xl-block"
@@ -194,9 +194,6 @@ const Hero = () => {
                             href={menu.href}
                             className={`text-white nav-link ${menu.dropdown ? "dropdown-toggle" : ""
                               }`}
-                          // {...(menu.dropdown
-                          //   ? { "data-bs-toggle": "dropdown" }
-                          //   : {})}
                           >
                             {menu.label}
                           </a>
@@ -249,7 +246,7 @@ const Hero = () => {
                   </ul>
                 </Box>
                 <Box>
-                  <div className="row gap-5 gap-xl-0">
+                  <div className="row gap-5 gap-xl-0 ">
                     <div className="col-12 col-xl-7 col-xxl-7">
                       <h1 className="fw-bold text-white">Experienced Service</h1>
                       <p

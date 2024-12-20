@@ -30,19 +30,23 @@ const FooterNew = () => {
           id="service"
         // sx={{ padding: { xs: "40px 0px 40px 0px", md: "80px 0px 80px 0px" } }}
         >
-          <Grid container gap={6}>
+          <Grid container gap={{ xs: 2, sm: 3, md: 6 }}>
             <Grid item xs={12} md={10} className="mx-auto">
               <Stack
                 direction={"row"}
                 alignItems={"center"}
                 justifyContent={"space-between"}
+                flexWrap={"wrap"}
               >
-                <img
-                  src={Logo.src}
-                  alt="carrumdowns dental clinic logo"
-                  style={{ width: "100%", maxWidth: "320px" }}
-                />
-                <Stack spacing={2}>
+                <Box sx={{ maxWidth: { xs: "100%", sm: "320px" } }}>
+                  <img
+                    src={Logo.src}
+                    alt="carrumdowns dental clinic logo"
+                    style={{ width: "100%" }}
+                  />
+                </Box>
+                <Stack spacing={2} flex={{ xs: 1, lg: 0.5 }}
+                >
                   <Typography component="span" variant="body1" fontWeight={600}>
                     SUBSCRIBE TO NEWSLETTER
                   </Typography>
@@ -52,6 +56,7 @@ const FooterNew = () => {
                       variant="outlined"
                       className="bg-transparent"
                       sx={{
+                        flex: 1,
                         "& .MuiOutlinedInput-root": {
                           borderTopRightRadius: "0px",
                           borderBottomRightRadius: "0px",
@@ -73,7 +78,10 @@ const FooterNew = () => {
               </Stack>
             </Grid>
             <Grid item xs={12} md={10} className="mx-auto">
-              <Stack direction={{ xs: "column", md: "row" }} spacing={12}>
+              <Stack
+                direction={{ xs: "column", md: "row" }}
+                spacing={{ xs: 2, sm: 4, md: 12 }}
+              >
                 <Stack flex={{ xs: 1, md: 0.9, lg: 1 }}>
                   <Typography className="footer-sec-head" gutterBottom>
                     About Us
@@ -93,10 +101,10 @@ const FooterNew = () => {
                 </Stack>
                 <Stack
                   flex={{ xs: 1, md: 1.1, lg: 1 }}
-                  direction={"row"}
+                  direction={{ xs: "column", sm: "row" }}
                   justifyContent={"space-between"}
                 >
-                  <Stack flex={{ xs: 1.2, md: 1 }}>
+                  <Stack flex={{ xs: 0.5, md: 1 }}>
                     <Typography className="footer-sec-head" gutterBottom>
                       Quick Links
                     </Typography>
@@ -116,7 +124,7 @@ const FooterNew = () => {
                             href={`/${link
                               .replace(/\s+/g, "-")
                               .toLowerCase()}/`}
-                            className="text-dark"
+                            className="text-dark fw-normal"
                           >
                             {link}
                           </a>
@@ -124,51 +132,51 @@ const FooterNew = () => {
                       ))}
                     </ul>
                   </Stack>
-                  <Stack flex={{ xs: 0.8, md: 1 }}>
+                  <Stack flex={{ xs: 0.5, md: 1 }}>
                     <Typography className="footer-sec-head" gutterBottom>
                       Opening Hours
                     </Typography>
                     {[
                       {
-                        // title: "Monday",
+                        title: "Monday",
                         // timing: "9:00am - 6:00pm" ,
-                        title: "MON",
+                        // title: "MON",
                         timing: "9AM - 6PM",
                       },
                       {
-                        // title: "Tuesday",
+                        title: "Tuesday",
                         // timing: "9:00am - 6:00pm" ,
-                        title: "TUE",
+                        // title: "TUE",
                         timing: "9AM - 6PM",
                       },
                       {
-                        // title: "Wednesday",
+                        title: "Wednesday",
                         // timing: "9:00am - 6:00pm" ,
-                        title: "WED",
+                        // title: "WED",
                         timing: "9AM - 6PM",
                       },
                       {
-                        // title: "Thursday",
+                        title: "Thursday",
                         // timing: "9:00am - 6:00pm" ,
-                        title: "THU",
+                        // title: "THU",
                         timing: "9AM - 6PM",
                       },
                       {
-                        // title: "Friday",
+                        title: "Friday",
                         // timing: "9:00am - 6:00pm" ,
-                        title: "FRI",
+                        // title: "FRI",
                         timing: "9AM - 6PM",
                       },
                       {
-                        // title: "Saturday",
+                        title: "Saturday",
                         // timing: "9:00am - 6:00pm" ,
-                        title: "SAT",
+                        // title: "SAT",
                         timing: "9AM - 6PM",
                       },
                       {
-                        // title: "Sunday",
+                        title: "Sunday",
                         // timing: "9:00am - 3:00pm" ,
-                        title: "SUN",
+                        // title: "SUN",
                         timing: "9AM - 3PM",
                       },
                     ].map((x, index) => (
@@ -191,8 +199,9 @@ const FooterNew = () => {
               <Stack
                 direction={"row"}
                 alignItems={"center"}
-                gap={4}
+                gap={{ xs: 2, sm: 2, md: 4 }}
                 justifyContent={"center"}
+                flexWrap={"wrap"}
                 sx={{
                   borderTop: "1px solid rgba(0, 0, 0, 0.1)",
                   borderBottom: "1px solid rgba(0, 0, 0, 0.1)",
@@ -234,7 +243,11 @@ const FooterNew = () => {
               </Stack>
             </Grid>
             <Grid item xs={12} md={10} className="mx-auto">
-              <Typography fontWeight={500} align="center">
+              <Typography
+                fontWeight={500}
+                align="center"
+                paddingBottom={{ xs: 12, md: 0 }}
+              >
                 Copy Right {new Date().getFullYear()} | carrumdownsdental.com.au
               </Typography>
             </Grid>

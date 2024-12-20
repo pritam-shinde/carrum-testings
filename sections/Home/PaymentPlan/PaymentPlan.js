@@ -37,7 +37,7 @@ const PaymentPlan = () => {
                 }}
             >
                 <Grid container>
-                    <Grid item xs={12} md={10} className="mx-auto">
+                    <Grid item xs={12} md={12} className="mx-auto">
                         <Box py={2}>
                             <SectionalHeading
                                 variant="h2"

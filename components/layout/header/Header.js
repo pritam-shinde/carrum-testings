@@ -4,50 +4,6 @@ import Styles from "../../../styles/components-style/layout-style/header/Header.
 import { Navbar } from "./Component/Components";
 
 const Header = () => {
-  // // const [isDesktop, setIsDesktop] = useState(false);
-  // const [isScrolled, setIsScrolled] = useState(false);
-
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     const handleResize = () => setIsDesktop(window.innerWidth > 1199);
-  //     setIsDesktop(window.innerWidth > 1199);
-  //     window.addEventListener('resize', handleResize);
-  //     return () => window.removeEventListener('resize', handleResize);
-  //   }
-  // }, []);
-
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     const handleScroll = () => {
-  //       if (window.scrollY > 50 && isDesktop) {
-  //         setIsScrolled(true);
-  //       } else if (window.scrollY <= 50 && isDesktop) {
-  //         setIsScrolled(false);
-  //       } else if (!isDesktop && window.scrollY > 0) {
-  //         setIsScrolled(true);
-  //       }
-  //     };
-
-  //     window.addEventListener('scroll', handleScroll);
-  //     return () => window.removeEventListener('scroll', handleScroll);
-  //   }
-  // }, [isDesktop]);
-
-  // useEffect(() => {
-  //   if (typeof window !== 'undefined') {
-  //     const handleScroll = () => {
-  //       if (window.scrollY > 50 && isDesktop) {
-  //         setIsScrolled(true);
-  //       } else {
-  //         setIsScrolled(false);
-  //       }
-  //     };
-
-  //     window.addEventListener('scroll', handleScroll);
-  //     return () => window.removeEventListener('scroll', handleScroll);
-  //   }
-  // }, [isDesktop]);
-
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -63,7 +19,7 @@ const Header = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener("scroll", handleScroll); // Cleanup listener on unmount
+      window.removeEventListener("scroll", handleScroll);
     };
   }, [isScrolled]);
 
