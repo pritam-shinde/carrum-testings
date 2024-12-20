@@ -44,11 +44,11 @@ const AboutNew = () => {
                                 <Typography component="h2" className="text-white">
                                     Welcome to Carrum Downs Dental at Shop T5, Hall Road!
                                 </Typography>
-                                <p className="fs-5 fw-bold text-light">
+                                <p className="fs-18 fw-bold text-light">
                                     Most Trusted Family Dentist in Carrumdowns
                                 </p>
                             </Box>
-                            <p className="fs-5 text-light">
+                            <p className="fs-18 text-light line-spacing">
                                 Our practice provides our patients with comprehensive services
                                 under one roof. From{" "}
                                 <a className="text-light-green" href="/dental-implants/">
@@ -66,14 +66,14 @@ const AboutNew = () => {
                                 a choice in treatment and will always educate and discuss
                                 treatment before a decision is made.
                             </p>
-                            <p className="fs-5 text-light">
+                            <p className="fs-18 text-light">
                                 Our staff are very friendly and will receive you with a smile,
                                 and our warm and inviting office will provide you a relaxing
                                 experience. Our dentist/staff are very good with children and
                                 will do whatever it takes to calm them down and distract them
                                 with IPAD while the treatment is performed.
                             </p>
-                            <p className="fs-5 text-light">
+                            <p className="fs-18 text-light">
                                 We accept dental vouchers from the public dental services
                                 (Victorian Dental Scheme and{" "}
                                 <a

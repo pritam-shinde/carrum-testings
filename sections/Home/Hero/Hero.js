@@ -270,7 +270,7 @@ const Hero = () => {
                         {slideContents[activeSlide].title}
                       </h1>
                       <p
-                        className="fs-5 text-light mt-3 mb-4"
+                        className="fs-18 text-light mt-3 mb-4"
                         style={{ maxWidth: "600px" }}
                       >
                         {slideContents[activeSlide].description}

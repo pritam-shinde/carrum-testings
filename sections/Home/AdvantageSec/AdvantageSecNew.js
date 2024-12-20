@@ -61,7 +61,7 @@ const AdvantageSecNew = () => {
                                 style={{ fontSize: "clamp(24px,4vw,40px) !important" }}
                             >
                                 <span className="me-2">We are OPEN</span>
-                                <span> 7 DAYS</span>
+                                <span>ALL 7 DAYS</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "left" }}>
                                 Providing services every day for your convenience.
@@ -83,9 +83,7 @@ const AdvantageSecNew = () => {
                                 <span className="me-2">Modern</span> <span>Dentistry</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "right" }}>
-                                The field of dentistry is constantly evolving. New techniques
-                                and procedures expand dentists' capabilities and deliver more
-                                effective treatments.
+                                The field of dentistry is constantly evolving. New techniques and procedures expand dentists’ capabilities and deliver more comfortable, long-lasting, and effective solutions to dental patients.
                             </Typography>
                         </Grid>
                     </Grid>

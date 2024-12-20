@@ -44,7 +44,6 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                 </List>
                                 <Box p={3} mt={2}>
                                     <div className="sectional-heading2">Scan for Direction</div>
-                                    {/* <Typography variant="h6">Scan for Direction</Typography> */}
                                     <Box>
                                         <img src={Scan.src} alt="scan" style={{ maxWidth: "60%" }} />
                                     </Box>
@@ -60,55 +59,55 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                             </Box>
                             <Box p={3} style={{ backgroundColor: "#11527826", borderRadius: "0 0 1rem 1rem" }}>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/wisdom-teeth-removal/">Wisdom Teeth Removal</a>
+                                    <a className='text-dark-blue' href="/service/wisdom-teeth-removal/">Wisdom Teeth Removal</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/child-benefit/">Child Benefit</a>
+                                    <a className='text-dark-blue' href="/service/child-benefit/">Child Benefit</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/dental-implants/">Dental Implants</a>
+                                    <a className='text-dark-blue' href="/service/dental-implants/">Dental Implants</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/dentures/">Denture</a>
+                                    <a className='text-dark-blue' href="/service/dentures/">Denture</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/teeth-whitening/">Teeth Whitening</a>
+                                    <a className='text-dark-blue' href="/service/teeth-whitening/">Teeth Whitening</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/crowns-and-bridge/">Crowns and Bridge</a>
+                                    <a className='text-dark-blue' href="/service/crowns-and-bridge/">Crowns and Bridge</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/veneers/">Veneers</a>
+                                    <a className='text-dark-blue' href="/service/veneers/">Veneers</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/teeth-aligners/">Invisalign</a>
+                                    <a className='text-dark-blue' href="/service/teeth-aligners/">Invisalign</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/root-canal/">Root Canal</a>
+                                    <a className='text-dark-blue' href="/service/root-canal/">Root Canal</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/teeth-cleaning/">Teeth Cleaning</a>
+                                    <a className='text-dark-blue' href="/service/teeth-cleaning/">Teeth Cleaning</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/dental-emergency/">Dental Emergency</a>
+                                    <a className='text-dark-blue' href="/service/dental-emergency/">Dental Emergency</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/tooth-fillings/">Tooth Fillings</a>
+                                    <a className='text-dark-blue' href="/service/tooth-fillings/">Tooth Fillings</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/smile-design/">Smile Design</a>
+                                    <a className='text-dark-blue' href="/service/smile-design/">Smile Design</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/digital-dentures/">Digital Dentures</a>
+                                    <a className='text-dark-blue' href="/service/digital-dentures/">Digital Dentures</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/implant-supported-denture/">Implant Supported Denture</a>
+                                    <a className='text-dark-blue' href="/service/implant-supported-denture/">Implant Supported Denture</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/denture-technology/">Denture Technology</a>
+                                    <a className='text-dark-blue' href="/service/denture-technology/">Denture Technology</a>
                                 </div>
                                 <div className="sectional-heading2 mt-3">
-                                    <a href="/service/sleep-dentistry/">Sleep Dentistry</a>
+                                    <a className='text-dark-blue' href="/service/sleep-dentistry/">Sleep Dentistry</a>
                                 </div>
                             </Box>
                         </Box>
