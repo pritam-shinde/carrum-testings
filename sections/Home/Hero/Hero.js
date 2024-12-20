@@ -165,13 +165,14 @@ const Hero = () => {
           disableOnInteraction: false,
         }}
         onSlideChange={(swiper) => {
-          const x = swiper.activeIndex < 4 ? swiper.activeIndex : 1
+          const x = swiper.activeIndex < 4 ? swiper.activeIndex : 1;
           setActiveSlide(x - 1);
         }}
+        className="custom-padding-top-hero"
       >
-        <SwiperSlide className={`slide ${Styles.slider1}`}></SwiperSlide>
-        <SwiperSlide className={`slide ${Styles.slider2}`}></SwiperSlide>
-        <SwiperSlide className={`slide ${Styles.slider3}`}></SwiperSlide>
+        <SwiperSlide className={`slide ${Styles.slider1}`} style={{ height: "100%", backgroundRepeat: "no-repeat" }}></SwiperSlide>
+        <SwiperSlide className={`slide ${Styles.slider2}`} style={{ height: "100%", backgroundRepeat: "no-repeat" }}></SwiperSlide>
+        <SwiperSlide className={`slide ${Styles.slider3}`} style={{ height: "100%", backgroundRepeat: "no-repeat" }}></SwiperSlide>
       </Swiper>
 
       {/* Hero content */}
@@ -191,10 +192,11 @@ const Hero = () => {
         >
           <Grid container>
             <Grid item xs={12} md={10} className="mx-auto">
-              <Stack gap={{ xs: 0, md: 10 }} paddingTop={{ xs: "60px", sm: 0 }}>
+              <Stack gap={{ xs: 0, md: 10 }}>
                 <Box
                   sx={{ maxWidth: "fit-content" }}
                   className="d-none d-xl-block"
+                  paddingTop={{ xs: "60px", sm: 0 }}
                 >
                   <ul className="navbar-nav mx-auto">
                     {navbarMenu.map((menu, index) => {

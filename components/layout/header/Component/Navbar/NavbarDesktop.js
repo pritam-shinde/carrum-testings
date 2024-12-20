@@ -60,7 +60,7 @@ const NavbarDesktop = ({ isScrolled }) => {
   }
 
   return (
-    <nav className="navbar navbar-expand-xl">
+    <nav className="navbar navbar-expand-xl navbar-height">
       <a href="/" className={`navbar-brand ${Styles.deskNavbarBrand}`}>
         <Image src={Logo} alt="carrumdowns dental clinic logo" />
       </a>
