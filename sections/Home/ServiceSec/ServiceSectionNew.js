@@ -59,9 +59,9 @@ const ServiceSectionNew = () => {
                                         description:
                                             "Eligible kids can get up to $1000* worth of free dental services.",
                                     },
-                                ].map((searvice, index) => (
+                                ].map((service, index) => (
                                     <div className="col-12 col-md-6 col-lg-4 p-0" key={index}>
-                                        <ServiceCard {...searvice} />
+                                        <ServiceCard {...service} />
                                     </div>
                                 ))}
                             </div>
@@ -95,7 +95,7 @@ const ServiceCard = ({
             }}
         >
             <div
-                className="h-50 w-100"
+                className="h-50 w-100 about-img-height"
                 style={{
                     backgroundImage: `url(${imageSrc})`,
                     backgroundRepeat: "no-repeat",

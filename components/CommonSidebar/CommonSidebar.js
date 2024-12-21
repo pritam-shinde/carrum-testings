@@ -3,9 +3,29 @@ import { useRouter } from "next/router";
 import React from "react";
 import Scan from "../../public/sidebar/scan.png";
 import Styles from "../../styles/components-style/CommonSidebar/CommonSidebar.module.css";
+import Link from "next/link";
 
 const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
     const router = useRouter();
+    const services = [
+        { name: "Wisdom Teeth Removal", url: "/service/wisdom-teeth-removal/" },
+        { name: "Child Benefit", url: "/service/child-benefit/" },
+        { name: "Dental Implants", url: "/service/dental-implants/" },
+        { name: "Denture", url: "/service/dentures/" },
+        { name: "Teeth Whitening", url: "/service/teeth-whitening/" },
+        { name: "Crowns and Bridge", url: "/service/crowns-and-bridge/" },
+        { name: "Veneers", url: "/service/veneers/" },
+        { name: "Invisalign", url: "/service/teeth-aligners/" },
+        { name: "Root Canal", url: "/service/root-canal/" },
+        { name: "Teeth Cleaning", url: "/service/teeth-cleaning/" },
+        { name: "Dental Emergency", url: "/service/dental-emergency/" },
+        { name: "Tooth Fillings", url: "/service/tooth-fillings/" },
+        { name: "Smile Design", url: "/service/smile-design/" },
+        { name: "Digital Dentures", url: "/service/digital-dentures/" },
+        { name: "Implant Supported Denture", url: "/service/implant-supported-denture/" },
+        { name: "Denture Technology", url: "/service/denture-technology/" },
+        { name: "Sleep Dentistry", url: "/service/sleep-dentistry/" },
+    ];
     return (
         <>
             <aside style={{ height: router.pathname == "/service/wisdom-teeth-removal" ? "auto" : "100%" }}>
@@ -25,7 +45,8 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>E-mail</strong>} secondary={<a className='text-dark-blue' href="mailto:carrumdownsdental@gmail.com">carrumdownsdental@gmail.com</a>} />
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemText primary={<strong>Phone</strong>} secondary={<a href="tel:03-9782 1200" className='text-dark-blue'>03-9782 1200</a>} />
+                                        <ListItemText primary={<strong>Phone</strong>} secondary={
+                                            <a href="tel:03-9782 1200" className='text-dark-blue'>03-9782 1200</a>} />
                                     </ListItem>
                                     <ListItem>
                                         <ListItemText
@@ -58,57 +79,15 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                 {/* <SectionalHeading variant="h5" align="center" title="Services" color="#fff" /> */}
                             </Box>
                             <Box p={3} style={{ backgroundColor: "#11527826", borderRadius: "0 0 1rem 1rem" }}>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/wisdom-teeth-removal/">Wisdom Teeth Removal</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/child-benefit/">Child Benefit</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/dental-implants/">Dental Implants</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/dentures/">Denture</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/teeth-whitening/">Teeth Whitening</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/crowns-and-bridge/">Crowns and Bridge</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/veneers/">Veneers</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/teeth-aligners/">Invisalign</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/root-canal/">Root Canal</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/teeth-cleaning/">Teeth Cleaning</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/dental-emergency/">Dental Emergency</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/tooth-fillings/">Tooth Fillings</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/smile-design/">Smile Design</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/digital-dentures/">Digital Dentures</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/implant-supported-denture/">Implant Supported Denture</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/denture-technology/">Denture Technology</a>
-                                </div>
-                                <div className="sectional-heading2 mt-3">
-                                    <a className='text-dark-blue' href="/service/sleep-dentistry/">Sleep Dentistry</a>
-                                </div>
+                                {services.map((service, index) => (
+                                    <div key={index} className="sectional-heading2 mt-3">
+                                        <Link href={service.url}>
+                                            <a className="text-dark-blue" >
+                                                {service.name}
+                                            </a>
+                                        </Link>
+                                    </div>
+                                ))}
                             </Box>
                         </Box>
                     ) : null}

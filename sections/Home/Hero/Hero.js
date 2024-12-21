@@ -210,13 +210,14 @@ const Hero = () => {
                           className={`nav-item ${menu.dropdown ? "dropdown" : ""
                             }`}
                         >
-                          <a
-                            href={menu.href}
-                            className={`text-white nav-link ${menu.dropdown ? "dropdown-toggle" : ""
-                              }`}
-                          >
-                            {menu.label}
-                          </a>
+                          <Link href={menu.href}>
+                            <a
+                              className={`text-white nav-link ${menu.dropdown ? "dropdown-toggle" : ""
+                                }`}
+                            >
+                              {menu.label}
+                            </a>
+                          </Link>
                           {menu.dropdown && (
                             <ul
                               className="dropdown-menu custom-column-count"
@@ -234,23 +235,25 @@ const Hero = () => {
                             >
                               {menu.dropdown.map((subMenu, subIndex) => (
                                 <li key={subIndex}>
-                                  <a
-                                    href={subMenu.href}
-                                    className="dropdown-item text-white"
-                                  >
-                                    {subMenu.label}
-                                  </a>
+                                  <Link href={subMenu.href}>
+                                    <a
+                                      className="dropdown-item text-white"
+                                    >
+                                      {subMenu.label}
+                                    </a>
+                                  </Link>
                                   {subMenu.subDropdown && (
                                     <ul className="dropdown-menu2">
                                       {subMenu.subDropdown.map(
                                         (subSubMenu, subSubIndex) => (
                                           <li key={subSubIndex}>
-                                            <a
-                                              href={subSubMenu.href}
-                                              className="dropdown-item2 text-white fw-normal"
-                                            >
-                                              {subSubMenu.label}
-                                            </a>
+                                            <Link href={subSubMenu.href}>
+                                              <a
+                                                className="dropdown-item2 text-white fw-normal"
+                                              >
+                                                {subSubMenu.label}
+                                              </a>
+                                            </Link>
                                           </li>
                                         )
                                       )}
@@ -259,7 +262,8 @@ const Hero = () => {
                                 </li>
                               ))}
                             </ul>
-                          )}
+                          )
+                          }
                         </li>
                       );
                     })}
@@ -290,7 +294,7 @@ const Hero = () => {
                       <div className="row g-3 pe-5 pe-md-0">
                         <div className="col-12 col-sm-6">
                           <div
-                            className="card text-white p-3 h-100 d-flex justify-content-between align-items-start"
+                            className="card text-white p-3 h-100 d-flex justify-content-between align-items-start mob-width-hero"
                             style={{
                               backgroundColor: "rgba(255,255,255,0.27)",
                               backdropFilter: "blur(5px)",
@@ -341,7 +345,7 @@ const Hero = () => {
 
                         <div className="col-12 col-sm-6">
                           <div
-                            className="card text-white p-3 h-100 d-flex justify-content-between align-items-start"
+                            className="card text-white p-3 h-100 d-flex justify-content-between align-items-start mob-width-hero"
                             style={{
                               backgroundColor: "rgba(255,255,255,0.27)",
                               backdropFilter: "blur(5px)",
@@ -417,10 +421,10 @@ const Hero = () => {
             </Grid>
           </Grid>
         </Container>
-      </Box>
+      </Box >
 
       {/* Social */}
-      <Stack
+      < Stack
         style={{ position: "absolute", top: "50%", right: 0, zIndex: 1 }}
         gap={1.5}
         paddingX={{ xs: 2, md: 4 }}
@@ -498,8 +502,8 @@ const Hero = () => {
             />
           </svg>
         </a>
-      </Stack>
-    </Container>
+      </Stack >
+    </Container >
   );
 };
 

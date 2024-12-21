@@ -229,8 +229,10 @@ const NavbarMobile = ({ isScrolled }) => {
             />
           )}
         </Box>
+
       </Stack>
-    </nav>
+
+    </nav >
   );
 };
 

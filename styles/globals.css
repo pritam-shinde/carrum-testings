@@ -155,7 +155,7 @@ li.nav-item.dropdown:hover .dropdown-menu {
   /* added width and below css */
   width: fit-content;
   position: absolute;
-  left: 10rem;
+  left: 11rem;
   top: 0 !important;
   /* background: #ffffff66; */
   background: rgba(255, 255, 255, 0.3);
@@ -351,6 +351,10 @@ footer a:hover {
         transparent 100%),
       url("/carrum-new/our-advantage.jpg") !important;
   }
+
+  .mob-width-hero {
+    max-width: 190px;
+  }
 }
 
 /* General video-embed wrapper for responsive behavior */
@@ -403,7 +407,6 @@ footer a:hover {
 
 @media screen and (max-height: 768px) {
   .custom-padding-top-hero {
-    /* margin-top: 160px !important; */
     height: 845px;
   }
 }
@@ -657,9 +660,9 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 1199px) {
-  header {
-    /* background-color: #fff; */
-  }
+  /* header {
+    background-color: #fff;
+  } */
 
   .nav-menu {
     flex-direction: column;
@@ -731,9 +734,9 @@ footer a:hover {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-  .nav-item .nav-link {
-    /* font-size: 0.8rem; */
-  }
+  /* .nav-item .nav-link {
+    font-size: 0.8rem;
+  } */
 
   .offerPageOfferCard {
     height: 37.5rem;
@@ -747,6 +750,14 @@ footer a:hover {
 @media only screen and (min-width: 1301px) and (max-width: 1500px) {
   .offerPageOfferCard .manageHeight {
     height: 14.5rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .about-img-height {
+    min-height: 320px !important;
+    background-size: cover !important;
+    background-position: top center;
   }
 }
 
@@ -856,6 +867,10 @@ footer a:hover {
   .margin-md {
     margin-left: clamp(5%, 5vw, 10%) !important;
   }
+
+  .mob-width-hero {
+    max-width: 280px;
+  }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1280px) {
@@ -930,7 +945,6 @@ div.scroll::-webkit-scrollbar-thumb {
 }
 
 /*  */
-
 img.MuiCardMedia-root.MuiCardMedia-media.MuiCardMedia-img.mx-auto.css-rhsghg {
   width: 60% !important;
 }
