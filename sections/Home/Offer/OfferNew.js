@@ -70,9 +70,9 @@ const OfferNew = () => {
     ];
 
     return (
-        <Container maxWidth="xxl">
-            <Grid>
-                <Grid item xs={12} md={10} className="mx-auto">
+        <Container maxWidth="xxl" style={{ padding: 0 }} >
+            <Grid container>
+                <Grid item xs={12} md={12} className="mx-auto">
                     <Box py={2}>
                         <SectionalHeading
                             variant="h2"
@@ -83,11 +83,11 @@ const OfferNew = () => {
                         />
                     </Box>
                     <Box py={3}>
-                        <Grid container spacing={3}>
+                        <Grid container spacing={3} style={{ padding: 0 }}>
                             {offers.map((item) => (
-                                <Grid key={item.id} item xs={12} sm={6} md={4} lg={3}>
+                                <Grid key={item.id} item xs={12} sm={6} md={4} lg={3} >
                                     <Card
-                                        className="shadow"
+                                        className="shadow rounded-0"
                                         style={{
                                             position: "relative",
                                             overflow: "hidden",

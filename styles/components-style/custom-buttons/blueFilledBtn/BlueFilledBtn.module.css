@@ -1,4 +1,4 @@
-.blueFilledBtn{
+.blueFilledBtn {
     /* padding: 0 !important; */
     padding: 0.5rem 1rem !important;
     background-color: var(--dark-blue) !important;
@@ -7,7 +7,7 @@
     margin-right: 0.5rem;
 }
 
-.blueFilledBtn a{
+.blueFilledBtn a {
     color: #fff !important;
     font-family: var(--heading-font) !important;
     letter-spacing: 1px;
@@ -15,32 +15,33 @@
     /* padding: 0.5rem 1rem !important; */
 }
 
-.blueFilledBtn:hover{
+.blueFilledBtn:hover {
     background-color: transparent !important;
 }
 
-.blueFilledBtn:hover a{
+.blueFilledBtn:hover a {
     color: var(--dark-blue) !important;
 }
 
-@media only screen and (max-width: 600px){
-    .blueFilledBtn{
+@media only screen and (max-width: 600px) {
+    .blueFilledBtn {
         padding: 0.3rem 0.6rem !important;
         margin-right: 0.25rem;
     }
 
-    .blueFilledBtn a{
-        font-size: 0.65rem;
+    .blueFilledBtn a {
+        font-size: 0.9rem;
+        /* font-size: 0.65rem; */
     }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1402px){
-    .blueFilledBtn{
+@media only screen and (min-width: 1200px) and (max-width: 1402px) {
+    .blueFilledBtn {
         /* padding: 0.25rem 0.5rem !important; */
         margin-right: 0.25rem;
     }
 
-    .blueFilledBtn a{
+    .blueFilledBtn a {
         font-size: 0.8rem;
     }
 }

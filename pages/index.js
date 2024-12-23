@@ -6,6 +6,7 @@ import OfferNew from "../sections/Home/Offer/OfferNew";
 import ServiceSectionNew from "../sections/Home/ServiceSec/ServiceSectionNew";
 import { Hero, PaymentPlan } from "../sections/sections";
 import AdvantageSecNew from "../sections/Home/AdvantageSec/AdvantageSecNew";
+import { CommonHero } from "../components/components";
 
 const Home = ({ data }) => {
     const [show, setShow] = useState(false);
@@ -21,11 +22,17 @@ const Home = ({ data }) => {
     return (
         <>
             <Head>
-                <title>Trusted Family Dentist in Carrum Downs | Carrum Downs Dental Clinic</title>
-                <meta name="description" content="Experience the best dental treatment from Carrum Downs Dental Group. Our Dentist knowledge and skills will provide you all Dental Care under one roof." />
+                <title>
+                    Trusted Family Dentist in Carrum Downs | Carrum Downs Dental Clinic
+                </title>
+                <meta
+                    name="description"
+                    content="Experience the best dental treatment from Carrum Downs Dental Group. Our Dentist knowledge and skills will provide you all Dental Care under one roof."
+                />
                 <meta name="robots" content="index" />
             </Head>
-            <Hero />
+            {/* <Hero /> */}
+            <CommonHero pathName="index" />
             <main style={{ backgroundColor: "#F5F5F5" }}>
                 <section>
                     <ServiceSectionNew />

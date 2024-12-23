@@ -43,7 +43,8 @@ const AdvantageSecNew = () => {
                     <Grid
                         container
                         spacing={4}
-                        alignItems="center"
+                        // alignItems="center"
+                        alignItems={{ sm: 'start', md: 'center' }}
                         justifyContent={isSmallScreen ? "flex-start" : "space-around"}
                         sx={{ mt: 0 }}
                     >
@@ -119,7 +120,7 @@ const AdvantageSecNew = () => {
                     <Grid
                         container
                         spacing={4}
-                        alignItems="center"
+                        alignItems={{ sm: 'start', md: 'center' }}
                         justifyContent={isSmallScreen ? "flex-start" : "space-around"}
                         sx={{ mt: 0 }}
                     >
@@ -164,7 +165,7 @@ const AdvantageSecNew = () => {
                     </Grid>
                 </Grid>
             </Container>
-        </Box>
+        </Box >
     );
 };
 

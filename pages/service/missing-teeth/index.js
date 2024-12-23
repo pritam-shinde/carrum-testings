@@ -2,8 +2,9 @@ import { CheckCircleOutline } from '@mui/icons-material';
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import Head from 'next/head';
 import Image from 'next/image';
-import React from 'react';
-import { BlueFilledBtn, BlueOulinedBtn, SectionalHeading } from '../../../components/components';
+import React, { useEffect, useState } from 'react';
+import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
+import Banner from '../../../public/RootCanal/root-canal-bg.jpg';
 import teethMissing1 from '../../../public/teeth-missing/Demo 01.png';
 import bridges from "../../../public/teeth-missing/teeth-missing-dental-bridges.png";
 import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png";
@@ -11,8 +12,26 @@ import denture from "../../../public/teeth-missing/teeth-missing-dentures.png";
 import supportedDenture from "../../../public/teeth-missing/teeth-missing-supported-dentures.png";
 import teethMissing2 from '../../../public/teeth-missing/teeth-missing3.png';
 
-
 const index = () => {
+    const [show, setShow] = useState(false)
+    const [width, setWidth] = useState()
+
+    useEffect(() => {
+        if (typeof window !== undefined) {
+            setShow(true)
+        } else {
+            setShow(false)
+        }
+    }, [])
+
+    useEffect(() => {
+        setWidth(window.innerWidth)
+    }, [width])
+
+    const breadcrumb = [
+        { id: "RootCanal_breadcrumb_1", link: "/service/", title: "Service" },
+        { id: "RootCanal_breadcrumb_2", link: null, title: 'Missing Teeth In Carrum Downs' }
+    ]
     return (
         <>
             <Head>
@@ -20,8 +39,10 @@ const index = () => {
                 <meta name="description" content="Explore Solutions for Missing Teeth. Don't let missing teeth affect your confidence and oral health. Contact Carrum Downs Dental Group for Dental Problems." />
                 <meta name="robots" content="index" />
             </Head>
+            <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Missing Teeth In Carrum Downs" align={width < 600 ? 'center' : 'left'} color="#fff" />
+
             <section className='teeth-missing-section1' style={{
-                marginTop: "12rem", backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
+                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
                 paddingBottom: '100px',
             }}>
