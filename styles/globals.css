@@ -158,8 +158,9 @@ li.nav-item.dropdown:hover .dropdown-menu {
   position: absolute;
   left: 8rem;
   top: 0 !important;
+  background: rgb(199 199 199 / 45%);
   /* background: #ffffff66; */
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
 }
 
 li.nav-item.dropdown:hover .dropdown-menu.inner-dropdown {
@@ -1236,4 +1237,8 @@ a #home-link {
 
 .theme-main-color {
   color: #19beb9;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--dark-blue) !important;
 }

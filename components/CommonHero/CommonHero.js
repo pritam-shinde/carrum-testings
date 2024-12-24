@@ -264,14 +264,23 @@ const CommonHero = ({
                               }}
                             >
                               {menu.dropdown.map((subMenu, subIndex) => (
-                                <li key={subIndex}>
+                                <li key={subIndex} style={{ position: "relative" }}>
                                   <Link href={subMenu.href}>
                                     <a className="dropdown-item text-white fs-15">
                                       {subMenu.label}
+                                      {subMenu.subDropdown && (
+                                        <KeyboardArrowRight
+                                          style={{
+                                            marginLeft: "8px",
+                                            fontSize: "18px",
+                                            transform: "rotate(90deg)"
+                                          }}
+                                        />
+                                      )}
                                     </a>
                                   </Link>
                                   {subMenu.subDropdown && (
-                                    <ul className="dropdown-menu2">
+                                    <ul className="dropdown-menu2" >
                                       {subMenu.subDropdown.map(
                                         (subSubMenu, subSubIndex) => (
                                           <li key={subSubIndex}>
