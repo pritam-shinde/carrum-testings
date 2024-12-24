@@ -21,7 +21,7 @@
   --heading-font-weight: 600;
   /* --heading-font: "Poppins", sans-serif;
   --para-font: "Work Sans", sans-serif; */
-  --heading-font: "Exo+2", sans-serif;
+  --heading-font: "Exo 2", sans-serif;
   --para-font: "Inter", sans-serif;
   --light-blue: #00708e;
   --dark-blue: #115278;
@@ -146,8 +146,9 @@ ul {
 
 .nav-item .nav-link,
 .nav-link {
-  font-family: var(--heading-font) !important;
-  font-weight: var(--heading-font-weight) !important;
+  font-family: var(--para-font) !important;
+  /* font-family: var(--heading-font) !important; */
+  /* font-weight: var(--heading-font-weight) !important; */
 }
 
 li.nav-item.dropdown:hover .dropdown-menu {
@@ -155,7 +156,7 @@ li.nav-item.dropdown:hover .dropdown-menu {
   /* added width and below css */
   width: fit-content;
   position: absolute;
-  left: 11rem;
+  left: 8rem;
   top: 0 !important;
   /* background: #ffffff66; */
   background: rgba(255, 255, 255, 0.3);
@@ -873,6 +874,11 @@ footer a:hover {
   }
 }
 
+/* .mob-width-hero {
+  max-width: 240px !important;
+  width: 100%;
+} */
+
 @media only screen and (min-width: 993px) and (max-width: 1280px) {
   .tWCard {
     height: 48rem;
@@ -1056,6 +1062,10 @@ span.arrow-right {
 /* custom colors and sizings */
 .fs-6 {
   font-size: 16px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
 }
 
 .fs-18 {

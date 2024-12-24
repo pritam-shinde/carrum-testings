@@ -19,9 +19,6 @@ const NavbarDesktop = ({ isScrolled }) => {
   // if (router.pathname === "/") {
   return (
     <nav className="navbar">
-      {/* <a href="/" className={`navbar-brand ${Styles.deskNavbarBrand}`}>
-          <Image src={Logo} alt="carrumdowns dental clinic logo" />
-        </a> */}
 
       <Link href="/">
         <a className={`navbar-brand ${Styles.deskNavbarBrand}`}>

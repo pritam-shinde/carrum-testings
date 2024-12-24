@@ -15,105 +15,105 @@ import { KeyboardArrowRight } from "@mui/icons-material";
 
 const navbarMenu = [
   {
-    label: "HOME",
+    label: "Home",
     href: "/",
     dropdown: null,
   },
   {
-    label: "ABOUT US",
+    label: "About us",
     href: "/about-us/",
     dropdown: [
-      { label: "PATIENT REFERRAL PROGRAM", href: "/referral-program/" },
-      { label: "PAYMENT PLAN", href: "/payment-plan/" },
-      { label: "NEW TECHNOLOGIES", href: "/new-technologies/" },
-      { label: "OFFER", href: "/offer/" },
-      { label: "MEET OUR TEAM", href: "/meet-our-team/" },
+      { label: "Patient referral program", href: "/referral-program/" },
+      { label: "Payment plan", href: "/payment-plan/" },
+      { label: "New technologies", href: "/new-technologies/" },
+      { label: "Offer", href: "/offer/" },
+      { label: "Meet our team", href: "/meet-our-team/" },
       {
-        label: "ACCESS MY SUPER",
+        label: "Access my super",
         href: "/superannuation-to-pay-for-dental-treatment/",
       },
       {
-        label: "COVID-19",
+        label: "Covid-19",
         href: "/how-we-can-reduce-the-spread-of-corona-virus-together/",
       },
     ],
   },
   {
-    label: "SERVICES",
+    label: "Services",
     href: "/service/",
     dropdown: [
-      { label: "MISSING TEETH", href: "/service/missing-teeth/" },
-      { label: "WISDOM TEETH REMOVAL", href: "/service/wisdom-teeth-removal/" },
-      { label: "CHILD BENEFIT", href: "/service/child-benefit/" },
-      { label: "DENTAL IMPLANTS", href: "/service/dental-implants/" },
-      { label: "DENTURE", href: "/service/dentures/" },
-      { label: "TEETH WHITENING", href: "/service/teeth-whitening/" },
-      { label: "CROWN AND BRIDGES", href: "/service/crowns-and-bridge/" },
-      { label: "VENEERS", href: "/service/veneers/" },
+      { label: "Missing teeth", href: "/service/missing-teeth/" },
+      { label: "Wisdom teeth removal", href: "/service/wisdom-teeth-removal/" },
+      { label: "Child benefit", href: "/service/child-benefit/" },
+      { label: "Dental implants", href: "/service/dental-implants/" },
+      { label: "Denture", href: "/service/dentures/" },
+      { label: "Teeth whitening", href: "/service/teeth-whitening/" },
+      { label: "Crown and bridges", href: "/service/crowns-and-bridge/" },
+      { label: "Veneers", href: "/service/veneers/" },
       {
-        label: "INVISALIGN",
+        label: "Invisalign",
         href: "/service/invisalign/",
         subDropdown: [
           {
-            label: "INVISALIGN OPEN DAY",
+            label: "Invisalign open day",
             href: "/service/invisalign-open-day/",
           },
         ],
       },
-      { label: "ROOT CANAL", href: "/service/root-canal/" },
-      { label: "TEETH CLEANING", href: "/service/teeth-cleaning/" },
-      { label: "DENTAL EMERGENCY", href: "/service/dental-emergency/" },
-      { label: "TOOTH FILLING", href: "/service/tooth-fillings/" },
-      { label: "SMILE DESIGN", href: "/service/smile-design/" },
-      { label: "DIGITAL DENTURES", href: "/service/digital-dentures/" },
+      { label: "Root canal", href: "/service/root-canal/" },
+      { label: "Teeth cleaning", href: "/service/teeth-cleaning/" },
+      { label: "Dental emergency", href: "/service/dental-emergency/" },
+      { label: "Tooth filling", href: "/service/tooth-fillings/" },
+      { label: "Smile design", href: "/service/smile-design/" },
+      { label: "Digital dentures", href: "/service/digital-dentures/" },
       {
-        label: "IMPLANT SUPPORTED DENTURE",
+        label: "Implant supported denture",
         href: "/service/implant-supported-denture/",
       },
-      { label: "DENTURE TECHNOLOGY", href: "/service/denture-technology/" },
-      { label: "SLEEP DENTISTRY", href: "/service/sleep-dentistry/" },
+      { label: "Denture technology", href: "/service/denture-technology/" },
+      { label: "Sleep dentistry", href: "/service/sleep-dentistry/" },
     ],
   },
   {
-    label: "DENTAL PROBLEMS",
+    label: "Dental problems",
     href: "/dental-problems/",
     dropdown: [
-      { label: "BAD BREATH", href: "/dental-problems/bad-breath" },
-      { label: "BITE PROBLEMS", href: "/dental-problems/bite-problems" },
-      { label: "BLEEDING GUMS", href: "/dental-problems/bleeding-gums" },
-      { label: "BRUXISM", href: "/dental-problems/bruxism" },
+      { label: "Bad breath", href: "/dental-problems/bad-breath" },
+      { label: "Bite problems", href: "/dental-problems/bite-problems" },
+      { label: "Bleeding gums", href: "/dental-problems/bleeding-gums" },
+      { label: "Bruxism", href: "/dental-problems/bruxism" },
       {
-        label: "CHIPPED OR CRACKED TOOTH",
+        label: "Chipped or cracked tooth",
         href: "/dental-problems/chipped-or-cracked-tooth",
       },
-      { label: "CROOKED TEETH", href: "/dental-problems/crooked-teeth" },
-      { label: "DENTAL ABSCESS", href: "/dental-problems/dental-abscess" },
-      { label: "DRY SOCKET", href: "/dental-problems/dry-socket" },
-      { label: "GUM DISEASE", href: "/dental-problems/gum-disease" },
+      { label: "Crooked teeth", href: "/dental-problems/crooked-teeth" },
+      { label: "Dental abscess", href: "/dental-problems/dental-abscess" },
+      { label: "Dry socket", href: "/dental-problems/dry-socket" },
+      { label: "Gum disease", href: "/dental-problems/gum-disease" },
       {
-        label: "KNOCKED OUT TEETH",
+        label: "Knocked out teeth",
         href: "/dental-problems/knocked-out-tooth",
       },
-      { label: "SEVERE TOOTHACHE", href: "/dental-problems/severe-toothache" },
-      { label: "STAINED TEETH", href: "/dental-problems/stained-teeth" },
+      { label: "Severe toothache", href: "/dental-problems/severe-toothache" },
+      { label: "Stained teeth", href: "/dental-problems/stained-teeth" },
       {
-        label: "TEETH SENSITIVITY",
+        label: "Teeth sensitivity",
         href: "/dental-problems/teeth-sensitivity",
       },
-      { label: "TOOTH GAPS", href: "/dental-problems/tooth-gap" },
+      { label: "Tooth gaps", href: "/dental-problems/tooth-gap" },
       {
-        label: "WISDOM TOOTH PAIN",
+        label: "Wisdom tooth pain",
         href: "/dental-problems/wisdom-tooth-pain",
       },
     ],
   },
   {
-    label: "BLOG",
+    label: "Blog",
     href: "/blog/",
-    dropdown: [{ label: "VIDEO GALLERY", href: "/video-gallery" }],
+    dropdown: [{ label: "Video gallery", href: "/video-gallery" }],
   },
   {
-    label: "CONTACT US",
+    label: "Contact us",
     href: "/contact-us/",
   },
 ];
@@ -266,7 +266,7 @@ const CommonHero = ({
                               {menu.dropdown.map((subMenu, subIndex) => (
                                 <li key={subIndex}>
                                   <Link href={subMenu.href}>
-                                    <a className="dropdown-item text-white">
+                                    <a className="dropdown-item text-white fs-15">
                                       {subMenu.label}
                                     </a>
                                   </Link>
@@ -276,7 +276,7 @@ const CommonHero = ({
                                         (subSubMenu, subSubIndex) => (
                                           <li key={subSubIndex}>
                                             <Link href={subSubMenu.href}>
-                                              <a className="dropdown-item2 text-white fw-normal">
+                                              <a className="dropdown-item2 text-white fw-normal fs-14">
                                                 {subSubMenu.label}
                                               </a>
                                             </Link>
@@ -330,11 +330,10 @@ const CommonHero = ({
                                   borderRadius: "12px",
                                 }}
                               >
-                                <h5 className="mb-0 d-flex flex-column">
+                                <h5 className="mb-0 d-flex flex-column fw-normal">
                                   <span>Book Online</span>
                                   <span>Appointment</span>
                                 </h5>
-
                                 <div
                                   className="d-flex align-items-center justify-content-between mt-0 mt-md-4"
                                   style={{
@@ -370,7 +369,7 @@ const CommonHero = ({
                               </div>
                             </div>
 
-                            <div className="col-12 col-sm-6">
+                            <div className="col-12 col-sm-6" >
                               <div
                                 className="card text-white p-3 h-100 d-flex justify-content-between align-items-start mob-width-hero"
                                 style={{
@@ -381,11 +380,10 @@ const CommonHero = ({
                                   borderRadius: "12px",
                                 }}
                               >
-                                <h5 className="mb-0 d-flex flex-column">
+                                <h5 className="mb-0 d-flex flex-column fw-normal">
                                   <span>Or Call</span>
                                   <span>03 - 9782 1200</span>
                                 </h5>
-
                                 <div
                                   className="d-flex align-items-center justify-content-between mt-0 mt-md-4"
                                   style={{

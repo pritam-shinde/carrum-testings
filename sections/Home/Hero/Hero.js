@@ -221,7 +221,7 @@ const Hero = () => {
                         >
                           <Link href={menu.href}>
                             <a
-                              className={`text-white nav-link ${menu.dropdown ? "dropdown-toggle" : ""
+                              className={`text-white text-capitalize nav-link ${menu.dropdown ? "dropdown-toggle" : ""
                                 }`}
                             >
                               {menu.label}
@@ -245,7 +245,7 @@ const Hero = () => {
                               {menu.dropdown.map((subMenu, subIndex) => (
                                 <li key={subIndex}>
                                   <Link href={subMenu.href}>
-                                    <a className="dropdown-item text-white">
+                                    <a className="dropdown-item text-white text-capitalize">
                                       {subMenu.label}
                                     </a>
                                   </Link>
@@ -255,7 +255,7 @@ const Hero = () => {
                                         (subSubMenu, subSubIndex) => (
                                           <li key={subSubIndex}>
                                             <Link href={subSubMenu.href}>
-                                              <a className="dropdown-item2 text-white fw-normal">
+                                              <a className="dropdown-item2 text-white fw-normal text-capitalize">
                                                 {subSubMenu.label}
                                               </a>
                                             </Link>
