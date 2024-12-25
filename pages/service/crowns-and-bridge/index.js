@@ -4,7 +4,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from '../../../components/components'
-import Banner from '../../../public/CNB/Banner.jpg'
+// import Banner from '../../../public/CNB/Banner.jpg'
+import Banner from '../../../public/carrum-new/banner/crown-brideges.webp'
 import CNBTeeth from '../../../public/CNB/defective-large-old-fillings.jpg'
 
 const CNB = ({ data }) => {

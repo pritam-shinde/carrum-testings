@@ -3,7 +3,8 @@ import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typog
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react'
 import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from '../../../components/components'
-import Banner from '../../../public/TeethCleaning/teeth-cleaing-bg.jpg'
+// import Banner from '../../../public/TeethCleaning/teeth-cleaing-bg.jpg'
+import Banner from '../../../public/carrum-new/banner/teeth-cleaning.webp'
 
 const TeethCleaning = ({ data }) => {
   const [show, setShow] = useState(false)

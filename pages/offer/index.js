@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react'
-import Head from 'next/head'
+import { CalendarMonth, CheckCircleOutlineOutlined, MobileFriendly, QrCode, SentimentSatisfiedAlt } from '@mui/icons-material'
 import { Box, Button, Card, CardContent, CardMedia, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
-import Offer1 from '../../public/Offer/scale-clean-offer.jpg'
-import Offer2 from '../../public/Offer/kids-offer.jpg'
-import Offer3 from '../../public/Offer/teeth-whitening-offer.jpg'
+import Head from 'next/head'
+import React, { useEffect, useState } from 'react'
+import { CommonHero, SectionalHeading } from '../../components/components'
 import Offer249 from '../../public/Offer/Image-249.jpg'
-import Banner from '../../public/Offer/offer-bg.jpg'
-import { CustomCard, CommonHero, SectionalHeading } from '../../components/components'
-import { CheckCircleOutlineOutlined } from '@mui/icons-material'
-import { CalendarMonth, MobileFriendly, QrCode, SentimentSatisfiedAlt } from '@mui/icons-material'
+import Offer2 from '../../public/Offer/kids-offer.jpg'
+// import Banner from '../../public/Offer/offer-bg.jpg'
+import Banner from '../../public/carrum-new/banner/offer.webp'
+import Offer1 from '../../public/Offer/scale-clean-offer.jpg'
+import Offer3 from '../../public/Offer/teeth-whitening-offer.jpg'
 
 
 const Offer = () => {

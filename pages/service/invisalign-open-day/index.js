@@ -1,11 +1,9 @@
-import React from 'react'
-import Head from 'next/head'
-import { CommonHero, CommonSidebar, SectionalHeading, CustomCard, InterestFree, TermsNCondition, BookAndCall } from '../../../components/components'
-import Banner from '../../../public/Invisalign-Open-Day/invisalign-open-day.webp'
-import { useState } from 'react'
-import { useEffect } from 'react'
-import { Box, Container, Grid, List, Typography, ListItem, ListItemIcon, ListItemText } from '@mui/material'
 import { CheckCircleOutline } from '@mui/icons-material'
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
+import Head from 'next/head'
+import React, { useEffect, useState } from 'react'
+import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from '../../../components/components'
+import Banner from '../../../public/Invisalign-Open-Day/invisalign-open-day.webp'
 
 const InvisalignOpenDay = ({ data }) => {
   const [show, setShow] = useState(false)

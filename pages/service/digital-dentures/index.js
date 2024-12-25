@@ -7,8 +7,8 @@ import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading,
 import image1 from '../../../public/digital-denture/digital-denture-1.jpg'
 import image2 from '../../../public/digital-denture/digital-denture-2.jpg'
 import image3 from '../../../public/digital-denture/digital-denture-3.jpg'
-import Banner from '../../../public/digital-denture/digital-denture-banner.jpg'
-
+// import Banner from '../../../public/digital-denture/digital-denture-banner.jpg'
+import Banner from '../../../public/carrum-new/banner/digital-dectures.webp'
 
 const DigitalDentures = () => {
   const [show, setShow] = useState(false)

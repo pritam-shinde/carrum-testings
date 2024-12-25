@@ -10,7 +10,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from '../../../components/components';
-import Banner from '../../../public/WisdomTeeth/Banner.jpg';
+// import Banner from '../../../public/WisdomTeeth/Banner.jpg';
+import Banner from '../../../public/carrum-new/banner/wisdom-teeth-removal.webp'
 import Slider1 from '../../../public/WisdomTeeth/Slider1.jpg';
 import Slider2 from '../../../public/WisdomTeeth/Slider2.jpg';
 import Slider3 from '../../../public/WisdomTeeth/Slider3.jpg';

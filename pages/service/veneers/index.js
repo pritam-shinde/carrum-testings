@@ -4,7 +4,8 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import FaqVeneers from "../../../components/VeneersData/FaqVeneers";
 import { BeforeAfterData, BlueFilledBtn, BlueOulinedBtn, CommonHero, CompareSlider1, VeneerData, VeneerProcessData, VeneersProcessDataComponent } from "../../../components/components";
-import Banner from "../../../public/Veneers/carrumdowns-veneer-page-banner.jpg";
+// import Banner from "../../../public/Veneers/carrumdowns-veneer-page-banner.jpg";
+import Banner from '../../../public/carrum-new/banner/Veneers.webp'
 
 const Veneers = ({ data }) => {
   const [show, setShow] = useState(false)

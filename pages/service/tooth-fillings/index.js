@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
-import Banner from '../../../public/ToothFillings/teeth-fillings-bg.jpg'
+// import Banner from '../../../public/ToothFillings/teeth-fillings-bg.jpg'
+import Banner from '../../../public/carrum-new/banner/teeth-filling.webp'
 import { CommonHero, CommonSidebar, SectionalHeading, TermsNCondition, InterestFree, BookAndCall, CustomCard } from '../../../components/components'
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material'
 import { CheckCircleOutline } from '@mui/icons-material'

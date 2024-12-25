@@ -7,7 +7,8 @@ import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading,
 import image1 from '../../../public/SmileDesign/1.jpg'
 import image2 from '../../../public/SmileDesign/2.jpg'
 import image3 from '../../../public/SmileDesign/3.png'
-import Banner from '../../../public/SmileDesign/smile-design-bg.jpg'
+// import Banner from '../../../public/SmileDesign/smile-design-bg.jpg'
+import Banner from '../../../public/carrum-new/banner/smile-design.webp'
 
 const SmileDesign = () => {
   const [show, setShow] = useState(false)

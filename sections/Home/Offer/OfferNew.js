@@ -168,7 +168,7 @@ const OfferNew = () => {
                                                     </div>
                                                 )}
                                                 {item.small && (
-                                                    <div className="text-dark">{item.small}</div>
+                                                    <div className="text-dark fs-14">{item.small}</div>
                                                 )}
                                             </Box>
                                             <CardMedia

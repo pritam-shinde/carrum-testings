@@ -2,7 +2,8 @@ import { Box, Container, Grid, Typography } from '@mui/material';
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react'
 import { CommonHero } from '../../components/components';
-import Banner from '../../public/new-technology/new-tech.jpg'
+// import Banner from '../../public/new-technology/new-tech.jpg'
+import Banner from '../../public/carrum-new/banner/new-technologies.webp'
 
 const NewTechnology = () => {
   const [show, setShow] = useState(false);

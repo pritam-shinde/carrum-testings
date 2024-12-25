@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react'
-import Banner from '../../public/covid/covid-bg.jpg'
+// import Banner from '../../public/covid/covid-bg.jpg'
+import Banner from '../../public/carrum-new/banner/covid-19.webp'
 import { CommonHero } from '../../components/components'
 import { Box, Container, Grid, List, ListItem, ListItemIcon, Typography, ListItemText } from '@mui/material'
 import { CheckCircleOutline } from '@mui/icons-material'

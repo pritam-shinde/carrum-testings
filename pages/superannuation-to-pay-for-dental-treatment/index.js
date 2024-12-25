@@ -4,7 +4,8 @@ import Image from 'next/image'
 import { CommonHero, CommonSidebar, SectionalHeading } from '../../components/components';
 import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import { CheckCircleOutline } from '@mui/icons-material';
-import SuperBg from "../../public/superannuation/CarrumBanner1.jpg"
+// import SuperBg from "../../public/superannuation/CarrumBanner1.jpg"
+import SuperBg from '../../public/carrum-new/banner/access-my-super.webp'
 import Super1 from "../../public/superannuation/CarrumImage-01.jpg"
 import Super2 from "../../public/superannuation/Carrum image-02.jpg"
 import Link from 'next/link';

@@ -5,7 +5,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from '../../../components/components'
-import Banner from '../../../public/child-benefit/Banner.jpg'
+// import Banner from '../../../public/child-benefit/Banner.jpg'
+import Banner from '../../../public/carrum-new/banner/child-benefit.webp'
 import ChildBenefitTreatment from '../../../public/child-benefit/child-benefit-compressed.jpg'
 
 const ChildBenefit = ({ data }) => {

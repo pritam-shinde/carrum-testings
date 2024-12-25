@@ -121,7 +121,7 @@ const FooterNew = () => {
                         "Blog",
                         "Contact Us",
                         "Privacy Policy",
-                        "Terms & Conditions",
+                        "Terms and Conditions",
                       ].map((link, index) => (
                         <li key={index}>
                           <a

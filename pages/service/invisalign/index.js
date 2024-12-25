@@ -6,7 +6,8 @@ import React, { useEffect, useState } from "react";
 import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from "../../../components/components";
 import ClearBiteAligner from "../../../public/invisalign/Clear-bite-aligners.jpg";
 import ClearBite from "../../../public/invisalign/Clearbite.jpg";
-import Banner from "../../../public/invisalign/invisalign-bg.jpg";
+// import Banner from "../../../public/invisalign/invisalign-bg.jpg";
+import Banner from '../../../public/carrum-new/banner/Invisalign.webp'
 
 const TeethAligner = ({ data }) => {
   const [show, setShow] = useState(false);

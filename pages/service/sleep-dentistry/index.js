@@ -15,7 +15,8 @@ import Sedation from "../../../public/sleep-denstistry/female-patient.jpg"
 import HappyGas from "../../../public/sleep-denstistry/happy-gas.jpg"
 import Image3 from "../../../public/sleep-denstistry/prevention-negative-treatment.jpg"
 import Image2 from "../../../public/sleep-denstistry/safe.jpg"
-import Banner from '../../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
+// import Banner from '../../../public/sleep-denstistry/sleep-dentistry-hero.jpg'
+import Banner from '../../../public/carrum-new/banner/sleep-dentistry.webp'
 import Special from "../../../public/sleep-denstistry/special-needs-img-opt.jpg"
 import styles from '../../../styles/CardLayout.module.css'
 
