@@ -4,7 +4,7 @@ import Head from 'next/head'
 import React, { useEffect, useState } from 'react'
 import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from '../../../components/components'
 // import Banner from '../../../public/DentalEmergency/dental-emergency-bg.jpg'
-import Banner from '../../../public/carrum-new/banner/teeth-emergency.webp'
+import Banner from '../../../public/carrum-new/banner/teeth-emergency-bg.jpg'
 
 const DentalEmergency = () => {
   const [show, setShow] = useState(false)

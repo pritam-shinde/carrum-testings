@@ -11,6 +11,7 @@ import React, { useState } from "react";
 import Logo from "../../../../../public/header/logo_new.png";
 import Styles from "../../../../../styles/components-style/layout-style/header/Header.module.css";
 import DropdownMenu from "./Components/DropdownMenu";
+import Link from "next/link";
 
 const NavbarMobile = ({ isScrolled }) => {
   const [menuState, setMenuState] = useState({
@@ -95,9 +96,11 @@ const NavbarMobile = ({ isScrolled }) => {
           className={`${menuState.clicked ? "nav-menu active" : "nav-menu"
             } overflow-auto`}
         >
-          <a href="/" className={`navbar-brand deskNavbarBrandMenu`}>
-            <Image src={Logo} alt="dental clinic logo" />
-          </a>
+          <Link href="/">
+            <a className={`navbar-brand deskNavbarBrandMenu`}>
+              <Image src={Logo} alt="dental clinic logo" />
+            </a>
+          </Link>
           <Box px={2} py={0}>
             <ul className="navbar-nav mob">
               <li onClick={closeMobileMenu}>
