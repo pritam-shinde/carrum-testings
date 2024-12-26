@@ -9,7 +9,9 @@ import Head from 'next/head';
 import Scaling from "../../../public/dental-problems-img/teeth sensitivity/Scaling_and_Cleaning.png"
 import DentalFilling from "../../../public/dental-problems-img/teeth sensitivity/Dental_filling.png"
 import Treatment from "../../../public/dental-problems-img/teeth sensitivity/Bite_problems_03.png"
-import BannerTeethSensitivity from "../../../public/dental-problems-img/teeth sensitivity/teeth_sensitivity_banner.jpg";
+// import BannerTeethSensitivity from "../../../public/dental-problems-img/teeth sensitivity/teeth_sensitivity_banner.jpg";
+import BannerTeethSensitivity from "../../../public/carrum-new/banner/sensitivity.jpg";
+
 
 const teethSensitivity = () => {
     return (
@@ -27,7 +29,7 @@ const teethSensitivity = () => {
                 color="#ccc"
             />
             <section className='teeth-missing-section1' style={{
-                  backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
+                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
                 paddingBottom: '100px',
             }}>

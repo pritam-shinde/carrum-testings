@@ -7,8 +7,11 @@ import severeTootache2 from '../../../public/dental-problems-img/severe toothach
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
 import RootCanalTherapy from "../../../public/dental-problems-img/severe toothache/Root_Canal_Therapy.png"
-import BannerSevereToothache from "../../../public/dental-problems-img/severe toothache/Severe_Toothache_banner.jpg"
-import  ToothDecay from "../../../public/dental-problems-img/severe toothache/Gum_disaese_01.png"
+import ToothDecay from "../../../public/dental-problems-img/severe toothache/Gum_disaese_01.png"
+// import BannerSevereToothache from "../../../public/dental-problems-img/severe toothache/Severe_Toothache_banner.jpg"
+import BannerSevereToothache from "../../../public/carrum-new/banner/severe-toothache.jpg";
+
+
 const SevereToothache = () => {
     return (
         <>
@@ -34,10 +37,10 @@ const SevereToothache = () => {
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                Learn More About Severe Toothache
+                                    Learn More About Severe Toothache
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
-                                Severe tooth pain can be agonizing, leaving you desperate for relief. At Carrum Downs Dental Group, we understand how debilitating toothaches can be. Our experienced dentists and staff are dedicated to addressing severe tooth pain quickly yet gently. We aim to ease your discomfort in a calming environment focused on your overall wellbeing.
+                                    Severe tooth pain can be agonizing, leaving you desperate for relief. At Carrum Downs Dental Group, we understand how debilitating toothaches can be. Our experienced dentists and staff are dedicated to addressing severe tooth pain quickly yet gently. We aim to ease your discomfort in a calming environment focused on your overall wellbeing.
                                 </Typography>
                                 <Box>
                                     <BlueFilledBtn navlink={true} btnTitle="BOOK APPOINTMENT" btnLink="/book-now/" />
@@ -61,17 +64,17 @@ const SevereToothache = () => {
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 1 }}>
                                 <Typography variant="h5" component="h2" gutterBottom style={{ color: "var(--dark-blue)" }}>
-                                Stop Suffering from Severe Toothaches with Personalised Dental Care
+                                    Stop Suffering from Severe Toothaches with Personalised Dental Care
                                 </Typography>
-                                
+
                                 <Typography variant="body1" gutterBottom>
-                                A severe toothache can disrupt your daily life. The pain occurs when a tooth's nerve becomes irritated, often signalling an underlying problem needing attention.
-                                </Typography>
-                                <Typography variant="body1" gutterBottom>
-                                Beyond the pain it causes, a toothache can also serve as an indication of an underlying issue with your teeth that requires examination. It may stem from factors such as decay, injury, infection, or gum disease.
+                                    A severe toothache can disrupt your daily life. The pain occurs when a tooth's nerve becomes irritated, often signalling an underlying problem needing attention.
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                At Carrum Downs Dental Group, we understand how uncomfortable toothaches can be. Our experienced team cares about identifying the source of your pain and providing personalized treatment to give you relief. We offer efficient dental services tailored to all kinds of toothaches. Our goal is to help you feel better quickly while also addressing any underlying dental issues. Trust Carrum Downs Dental Group to provide the compassionate, professional care you need to get your smile healthy again.
+                                    Beyond the pain it causes, a toothache can also serve as an indication of an underlying issue with your teeth that requires examination. It may stem from factors such as decay, injury, infection, or gum disease.
+                                </Typography>
+                                <Typography variant="body1" gutterBottom>
+                                    At Carrum Downs Dental Group, we understand how uncomfortable toothaches can be. Our experienced team cares about identifying the source of your pain and providing personalized treatment to give you relief. We offer efficient dental services tailored to all kinds of toothaches. Our goal is to help you feel better quickly while also addressing any underlying dental issues. Trust Carrum Downs Dental Group to provide the compassionate, professional care you need to get your smile healthy again.
                                 </Typography>
                             </Box>
                         </Grid>
@@ -88,10 +91,10 @@ const SevereToothache = () => {
                         <Grid item xs={12} md={12}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                Dental Services That Can Address Severe Toothache
+                                    Dental Services That Can Address Severe Toothache
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
-                                Suffering from a severe toothache? At Carrum Downs Dental Group, we provide personalised dental treatments to relieve pain and address underlying causes.
+                                    Suffering from a severe toothache? At Carrum Downs Dental Group, we provide personalised dental treatments to relieve pain and address underlying causes.
                                 </Typography>
                                 <List>
                                     <ListItem>
@@ -145,20 +148,20 @@ const SevereToothache = () => {
                             <Box>
                                 <SectionalHeading variant="h2" color="var(--dark-blue)" title="Frequently Asked Questions About Severe Toothache" align="center" />
                             </Box>
-                            
+
                             <Box mt={3}>
                                 <div className="accordion" id="accordionExample">
-                                <div className="accordion-item">
+                                    <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingOne">
                                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            What causes severe toothache?
+                                                What causes severe toothache?
                                             </button>
                                         </h3>
                                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                            <Typography variant="body1" className='text-black' style={{ marginTop: "27px"}} gutterBottom>
-                                            A severe toothache can have many underlying causes that require proper dental care:
-                                        </Typography>
+                                                <Typography variant="body1" className='text-black' style={{ marginTop: "27px" }} gutterBottom>
+                                                    A severe toothache can have many underlying causes that require proper dental care:
+                                                </Typography>
                                                 <div className='para'>
                                                     <List>
                                                         <ListItem>
@@ -208,7 +211,7 @@ const SevereToothache = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingTwo">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            What are the signs and symptoms of severe toothache?
+                                                What are the signs and symptoms of severe toothache?
                                             </button>
                                         </h3>
                                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -265,12 +268,12 @@ const SevereToothache = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingThree">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            What should I do if I have a severe toothache at home?
+                                                What should I do if I have a severe toothache at home?
                                             </button>
                                         </h3>
                                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                            <div className='para'>If you're grappling with a severe toothache from the comfort of your home, there are several steps you can take to alleviate the discomfort:</div>
+                                                <div className='para'>If you're grappling with a severe toothache from the comfort of your home, there are several steps you can take to alleviate the discomfort:</div>
                                                 <div className='para'>
                                                     <List>
                                                         <ListItem>
@@ -297,14 +300,14 @@ const SevereToothache = () => {
                                                             </ListItemIcon>
                                                             <ListItemText ><strong>Opt for Tooth-Friendly Foods </strong> Steer clear of chewy, hard, and sticky foods to prevent exacerbating your pain. Soft and liquid foods are preferable choices when managing a toothache.
                                                             </ListItemText>
-                                                        </ListItem>   
+                                                        </ListItem>
                                                         <ListItem>
                                                             <ListItemIcon>
                                                                 <CheckCircleOutline style={{ color: "var(--dark-blue)" }} />
                                                             </ListItemIcon>
                                                             <ListItemText ><strong>	Rinse with Antiseptic Mouthwash </strong> Combat bacteria and ease the pain associated with a severe toothache by rinsing your mouth with an antiseptic mouthwash. This can contribute to reducing discomfort.These home remedies can offer some relief, but it's crucial to consult a dental professional for a comprehensive evaluation and appropriate treatment, especially if the pain persists or worsens.
                                                             </ListItemText>
-                                                        </ListItem>                                                                                    
+                                                        </ListItem>
                                                     </List>
                                                 </div>
                                             </div>
@@ -313,34 +316,34 @@ const SevereToothache = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingFour">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            How long will a severe toothache last?
+                                                How long will a severe toothache last?
                                             </button>
                                         </h3>
                                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 <div className='para'>Typically, an intense toothache might persist for a day or two, contingent upon the underlying trigger and the duration before seeking professional assistance. It's imperative to recognize that the discomfort from a toothache can be severe and intolerable, underscoring the significance of promptly scheduling a visit to your dentist.
-                                                A dentist possesses the expertise to precisely diagnose and identify the source of your intense toothache. They might propose a prescription-strength anti-inflammatory medication or potentially recommend dental interventions like a root canal or tooth extraction. Swift action under the guidance of your dentist can pave the way for relief from the distress associated with a severe toothache.</div>
+                                                    A dentist possesses the expertise to precisely diagnose and identify the source of your intense toothache. They might propose a prescription-strength anti-inflammatory medication or potentially recommend dental interventions like a root canal or tooth extraction. Swift action under the guidance of your dentist can pave the way for relief from the distress associated with a severe toothache.</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingFive">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            What happens if I don't manage severe toothache?
+                                                What happens if I don't manage severe toothache?
                                             </button>
                                         </h3>
                                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
                                                 <div className='para'>Left untreated, a severe toothache can progress into more serious dental issues like an abscess or tooth loss. An abscess is an infected pocket of pus that develops at the root tip when bacteria invade. If an abscess goes unchecked, it can spread to the jawbone and nearby areas, jeopardizing your overall oral health.
-                                                The best way to get relief from a severe toothache is to promptly see your dentist at Carrum Downs Dental Group. Our expert dentists will evaluate your toothache and recommend the right treatment, whether that's antibiotics, a filling replacement, root canal therapy, or something else tailored to the specific cause. We provide urgent care to stop the intense pain of a severe toothache and prevent it from turning into something much worse. Don't delay -
-                                                 visit Carrum Downs Dental Group as soon as possible for assessment and treatment when dealing with an intense, lingering toothache.</div>
+                                                    The best way to get relief from a severe toothache is to promptly see your dentist at Carrum Downs Dental Group. Our expert dentists will evaluate your toothache and recommend the right treatment, whether that's antibiotics, a filling replacement, root canal therapy, or something else tailored to the specific cause. We provide urgent care to stop the intense pain of a severe toothache and prevent it from turning into something much worse. Don't delay -
+                                                    visit Carrum Downs Dental Group as soon as possible for assessment and treatment when dealing with an intense, lingering toothache.</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <section style={{ marginBottom: "2rem" }}></section>
                                 <Typography variant="body1" className='text-black' gutterBottom><strong style={{ color: "var(--dark-blue)" }}>Experience luxury dental care at Carrum Downs Dental Group.</strong><br></br>
-                                At Carrum Downs Dental Group, our firm belief is that everyone should have the chance to feel the luxury and comfort that comes with top-notch dental care. Don't delay any further; the opportunity to experience this regal treatment awaits you. Take action now by scheduling your appointment at Carrum Downs Dental Group. Your path to exceptional dental care starts today!
+                                    At Carrum Downs Dental Group, our firm belief is that everyone should have the chance to feel the luxury and comfort that comes with top-notch dental care. Don't delay any further; the opportunity to experience this regal treatment awaits you. Take action now by scheduling your appointment at Carrum Downs Dental Group. Your path to exceptional dental care starts today!
                                 </Typography>
                             </Box>
                         </Box>

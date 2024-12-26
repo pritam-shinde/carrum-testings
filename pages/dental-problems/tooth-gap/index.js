@@ -10,7 +10,8 @@ import DentalCrown from "../../../public/dental-problems-img/tooth gaps/Dental_c
 import Smile from "../../../public/dental-problems-img/tooth gaps/Smile_Makeovers_01.png";
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from "../../../components/components";
 import Head from "next/head";
-import BannerToothGap from "../../../public/dental-problems-img/tooth gaps/Tooth_gaps-banner.jpg";
+// import BannerToothGap from "../../../public/dental-problems-img/tooth gaps/Tooth_gaps-banner.jpg";
+import BannerToothGap from "../../../public/carrum-new/banner/gap-in-teeth.jpg";
 
 const ToothGap = () => {
     return (

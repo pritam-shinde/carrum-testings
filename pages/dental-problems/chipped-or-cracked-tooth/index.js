@@ -1,26 +1,25 @@
-import React from 'react';
-import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
-import { CheckCircleOutline } from '@mui/icons-material'
-import Image from 'next/image';
-import chippedTooth1 from '../../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_01.png'
-import chippedTooth2 from '../../../public/dental-problems-img/chipped or cracked tooth/bad_breath_04.png'
-import chippedTooth_Banner from "../../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_banner.jpg"
-// import DentalCrowns from "../../../public/dental-problems-img/chipped or cracked tooth/Dental_crowns_01.png"
-// import SmileMakeovers from "../../../public/dental-problems-img/chipped or cracked tooth/Smile_Makeovers_01.png"
-import ToothExtraction from "../../../public/dental-problems-img/chipped or cracked tooth/Tooth_Extraction.png"
-// import Veneers from "../../../public/dental-problems-img/chipped or cracked tooth/Veneers_01.png"
-import DentalCrowns from "../../../public/dental-problems-img/chipped or cracked tooth/Dental_crowns_1.png"
-import SmileMakeovers from "../../../public/dental-problems-img/chipped or cracked tooth/Smile_Makeovers_1.png"
-import Veneers from "../../../public/dental-problems-img/chipped or cracked tooth/Veneers_1.png"
-import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
+import { CheckCircleOutline } from '@mui/icons-material';
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import Head from 'next/head';
+import Image from 'next/image';
+import React from 'react';
+import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
+import chippedTooth2 from '../../../public/dental-problems-img/chipped or cracked tooth/bad_breath_04.png';
+import chippedTooth1 from '../../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_01.png';
+import DentalCrowns from "../../../public/dental-problems-img/chipped or cracked tooth/Dental_crowns_1.png";
+import SmileMakeovers from "../../../public/dental-problems-img/chipped or cracked tooth/Smile_Makeovers_1.png";
+import ToothExtraction from "../../../public/dental-problems-img/chipped or cracked tooth/Tooth_Extraction.png";
+import Veneers from "../../../public/dental-problems-img/chipped or cracked tooth/Veneers_1.png";
+// import chippedTooth_Banner from "../../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_banner.jpg";
+import chippedTooth_Banner from "../../../public/carrum-new/banner/cracked-tooth.jpg";
+
 
 const ChippedTooth = () => {
     return (
         <>
             <Head>
                 <title>Get Solutions for Chipped or Cracked Tooth l Carrum Down Dental</title>
-                <meta name="description" content="Find Effective Solutions for Chipped or Cracked Teeth at Carrum Downs Dental. Learn about the causes & explore our expert treatments to restore your smile & oral health."/>
+                <meta name="description" content="Find Effective Solutions for Chipped or Cracked Teeth at Carrum Downs Dental. Learn about the causes & explore our expert treatments to restore your smile & oral health." />
                 <meta name="robots" content="index" />
             </Head>
             <CommonHero

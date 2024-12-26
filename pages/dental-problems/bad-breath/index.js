@@ -12,7 +12,9 @@ import Wisdom from "../../../public/dental-problems-img/bad breath/Wisdom_Teeth_
 import BadBreath1 from "../../../public/dental-problems-img/bad breath/bad_breath_01.png";
 import BadBreath2 from "../../../public/dental-problems-img/bad breath/bad_breath_02.png";
 import Treatment from "../../../public/dental-problems-img/bad breath/bad_breath_06.png";
-import BannerBadBreath from "../../../public/dental-problems-img/bad breath/bad_breath_banner.jpg";
+// import BannerBadBreath from "../../../public/dental-problems-img/bad breath/bad_breath_banner.jpg";
+import BannerBadBreath from "../../../public/carrum-new/banner/bad-breath.jpg";
+
 
 const BadBreath = () => {
     return (

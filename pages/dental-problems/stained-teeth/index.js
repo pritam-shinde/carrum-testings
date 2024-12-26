@@ -6,11 +6,13 @@ import stainedTeeth1 from '../../../public/dental-problems-img/stained teeth/Sta
 import stainedTeeth2 from '../../../public/dental-problems-img/stained teeth/Stained_teeth_02.png'
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
- import TeethWhitening from "../../../public/dental-problems-img/stained teeth/Smile_makeovers.png"
- import dentalCrowns from "../../../public/dental-problems-img/stained teeth/Dental_crowns.png"
- import dentalVeeners from "../../../public/dental-problems-img/stained teeth/Dental_veneers.png"
- import Smile from "../../../public/dental-problems-img/stained teeth/Smile_Makeovers_01.png"
- import StainedBanner from "../../../public/dental-problems-img/stained teeth/Stained_teeth_banner.jpg"
+import TeethWhitening from "../../../public/dental-problems-img/stained teeth/Smile_makeovers.png"
+import dentalCrowns from "../../../public/dental-problems-img/stained teeth/Dental_crowns.png"
+import dentalVeeners from "../../../public/dental-problems-img/stained teeth/Dental_veneers.png"
+import Smile from "../../../public/dental-problems-img/stained teeth/Smile_Makeovers_01.png"
+//  import StainedBanner from "../../../public/dental-problems-img/stained teeth/Stained_teeth_banner.jpg"
+import StainedBanner from "../../../public/carrum-new/banner/stained-teeth.jpg";
+
 
 const StainedTeeth = () => {
     return (
@@ -28,7 +30,7 @@ const StainedTeeth = () => {
                 color="#fff"
             />
             <section className='stained-teeth-section1' style={{
-                 backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
+                backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',
                 paddingBottom: '100px',
             }}>
@@ -37,10 +39,10 @@ const StainedTeeth = () => {
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                Learn More About Stained Teeth
+                                    Learn More About Stained Teeth
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
-                                Perhaps discoloured or stained teeth have caused you to feel less confident about sharing your smile. At Carrum Downs Dental Group, we have the solution to boost your confidence. Our services are designed to effectively tackle teeth staining and help you regain that radiant smile.
+                                    Perhaps discoloured or stained teeth have caused you to feel less confident about sharing your smile. At Carrum Downs Dental Group, we have the solution to boost your confidence. Our services are designed to effectively tackle teeth staining and help you regain that radiant smile.
                                 </Typography>
                                 <Box>
                                     <BlueFilledBtn navlink={true} btnTitle="BOOK APPOINTMENT" btnLink="/book-now/" />
@@ -64,16 +66,16 @@ const StainedTeeth = () => {
                         <Grid item xs={12} md={6}>
                             <Box sx={{ p: 1 }}>
                                 <Typography variant="h5" component="h2" gutterBottom style={{ color: "var(--dark-blue)" }}>
-                                Flash a Brighter Smile Without Worrying About Stained Teeth
+                                    Flash a Brighter Smile Without Worrying About Stained Teeth
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                Presenting a warm and inviting smile can leave a lasting positive impression. However, when dealing with teeth stains, the inclination to reveal your smile might diminish due to the impact of discolouration.
+                                    Presenting a warm and inviting smile can leave a lasting positive impression. However, when dealing with teeth stains, the inclination to reveal your smile might diminish due to the impact of discolouration.
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                The presence of stained teeth not only disrupts aesthetics but also lays the groundwork for potential dental complications. Reinstating your teeth's natural brightness holds the key to restoring your self-assured and exquisite smile.
+                                    The presence of stained teeth not only disrupts aesthetics but also lays the groundwork for potential dental complications. Reinstating your teeth's natural brightness holds the key to restoring your self-assured and exquisite smile.
                                 </Typography>
                                 <Typography variant="body1" gutterBottom>
-                                At Carrum Downs Dental Group, we extend professional teeth whitening services aimed at realizing your aspiration for a glowing smile. Our team of skilled dentists employs cutting-edge technologies to facilitate the achievement of a healthier and more radiant smile. Visit our dental and experience the transformation.
+                                    At Carrum Downs Dental Group, we extend professional teeth whitening services aimed at realizing your aspiration for a glowing smile. Our team of skilled dentists employs cutting-edge technologies to facilitate the achievement of a healthier and more radiant smile. Visit our dental and experience the transformation.
                                 </Typography>
                             </Box>
                         </Grid>
@@ -90,10 +92,10 @@ const StainedTeeth = () => {
                         <Grid item xs={12} md={12}>
                             <Box sx={{ p: 2 }}>
                                 <Typography variant="h5" component="h2" className='text-white' gutterBottom>
-                                Dental Services That Can Address Stained Teeth
+                                    Dental Services That Can Address Stained Teeth
                                 </Typography>
                                 <Typography variant="body1" className='text-white' gutterBottom>
-                                Our dental solutions can enhance the shade of your teeth beyond their current color, leaving you with a renewed sense of confidence and self-assurance.
+                                    Our dental solutions can enhance the shade of your teeth beyond their current color, leaving you with a renewed sense of confidence and self-assurance.
                                 </Typography>
                                 <List>
                                     <ListItem>
@@ -180,17 +182,17 @@ const StainedTeeth = () => {
                             </Box>
                             <Box mt={3}>
                                 <div className="accordion" id="accordionExample">
-                                <div className="accordion-item">
+                                    <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingOne">
                                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            What causes stained teeth?
+                                                What causes stained teeth?
                                             </button>
                                         </h3>
                                         <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div className="accordion-body">
-                                            <Typography variant="body1" className='text-black' style={{ marginTop: "27px"}} gutterBottom>
-                                        Dry socket is a prevalent issue that can arise after a tooth extraction due to factors like infection, trauma, or complications with the jawbone. The successful healing of the extraction site relies on the formation and protection of a blood clot. However, the absence or premature dislodging of this clot can lead to the development of a dry socket
-                                        </Typography>
+                                                <Typography variant="body1" className='text-black' style={{ marginTop: "27px" }} gutterBottom>
+                                                    Dry socket is a prevalent issue that can arise after a tooth extraction due to factors like infection, trauma, or complications with the jawbone. The successful healing of the extraction site relies on the formation and protection of a blood clot. However, the absence or premature dislodging of this clot can lead to the development of a dry socket
+                                                </Typography>
                                                 <div className='para'>
                                                     <List>
                                                         <ListItem>
@@ -240,7 +242,7 @@ const StainedTeeth = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingTwo">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            How do I manage stained teeth at home?
+                                                How do I manage stained teeth at home?
                                             </button>
                                         </h3>
                                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -273,7 +275,7 @@ const StainedTeeth = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingThree">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            What are the benefits of addressing stained teeth?
+                                                What are the benefits of addressing stained teeth?
                                             </button>
                                         </h3>
                                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -304,8 +306,8 @@ const StainedTeeth = () => {
                                                             </ListItemIcon>
                                                             <ListItemText ><strong>Enhanced Oral Well-being </strong> The process of removing stains aids in diminishing detrimental bacteria and accumulating plaque and tartar. This proactive approach contributes to safeguarding your oral well-being from potential gum diseases or tooth decay, making it a significant stride towards improved oral health.
                                                             </ListItemText>
-                                                        </ListItem>                                                      
-                                                                                              
+                                                        </ListItem>
+
                                                     </List>
                                                 </div>
                                             </div>
@@ -314,7 +316,7 @@ const StainedTeeth = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingFour">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                            Does tooth brushing help in removing teeth stains?
+                                                Does tooth brushing help in removing teeth stains?
                                             </button>
                                         </h3>
                                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -326,7 +328,7 @@ const StainedTeeth = () => {
                                     <div className="accordion-item">
                                         <h3 className="accordion-header" id="headingFive">
                                             <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                            How do I prevent tooth discolouration?
+                                                How do I prevent tooth discolouration?
                                             </button>
                                         </h3>
                                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
@@ -338,7 +340,7 @@ const StainedTeeth = () => {
                                 </div>
                                 <section style={{ marginBottom: "2rem" }}></section>
                                 <Typography variant="body1" className='text-black' gutterBottom><strong style={{ color: "var(--dark-blue)" }}>Experience luxury dental care at Carrum Downs Dental Group</strong><br></br>
-                                Carrum Downs Dental Group is firmly committed to the principle that access to exquisite and convenient premium dental care should be within reach for all. Waste no more time and embrace the opportunity to partake in this luxurious experience. Don't hesitate to schedule your appointment with Carrum Downs Dental Group today to embark on a journey of exceptional oral care.
+                                    Carrum Downs Dental Group is firmly committed to the principle that access to exquisite and convenient premium dental care should be within reach for all. Waste no more time and embrace the opportunity to partake in this luxurious experience. Don't hesitate to schedule your appointment with Carrum Downs Dental Group today to embark on a journey of exceptional oral care.
                                 </Typography>
                             </Box>
                         </Box>

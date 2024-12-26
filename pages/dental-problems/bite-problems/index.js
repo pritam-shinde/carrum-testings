@@ -10,7 +10,8 @@ import ClearAligners from "../../../public/dental-problems-img/bite problems/Cle
 import SmileMakeover from "../../../public/dental-problems-img/bite problems/Smile_makeovers.png"
 import Wisdom from "../../../public/dental-problems-img/bite problems/Wisdom_Teeth_Removal_01.png"
 import ToothExtraction from "../../../public/dental-problems-img/bite problems/Tooth_Extraction_01.png"
-import BiteProblemsBanner from "../../../public/dental-problems-img/bite problems/Bite_problems_banner-main.jpg"
+// import BiteProblemsBanner from "../../../public/dental-problems-img/bite problems/Bite_problems_banner-main.jpg"
+import BiteProblemsBanner from "../../../public/carrum-new/banner/bite-problem.jpg";
 import Link from 'next/link';
 
 const WisdomToothPain = () => {

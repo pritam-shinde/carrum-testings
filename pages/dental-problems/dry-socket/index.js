@@ -1,13 +1,14 @@
-import React from "react";
-import { Grid, Typography,Container, Box, List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
 import { CheckCircleOutline } from "@mui/icons-material";
-import Image from "next/image";
-import drySocket1 from "../../../public/dental-problems-img/dry socket/Dry_socket_03.png";
-import drySocket2 from "../../../public/dental-problems-img/dry socket/Dry_socket_02.png";
-import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from "../../../components/components";
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
 import Head from "next/head";
-import BannerDrySocket from "../../../public/dental-problems-img/dry socket/Dry_socket_banner.jpg";
+import Image from "next/image";
+import React from "react";
+import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from "../../../components/components";
+import drySocket2 from "../../../public/dental-problems-img/dry socket/Dry_socket_02.png";
+import drySocket1 from "../../../public/dental-problems-img/dry socket/Dry_socket_03.png";
 import Care from "../../../public/dental-problems-img/dry socket/Urgent_Dental_Care.png";
+// import BannerDrySocket from "../../../public/dental-problems-img/dry socket/Dry_socket_banner.jpg";
+import BannerDrySocket from "../../../public/carrum-new/banner/dental-abscess2.jpg";
 
 const DrySocket = () => {
     return (

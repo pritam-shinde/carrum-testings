@@ -6,9 +6,10 @@ import React from 'react';
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
 import bleedingGums1 from '../../../public/dental-problems-img/bleeding gums/Bleeding_Gums_01.png';
 import bleedingGums2 from '../../../public/dental-problems-img/bleeding gums/Bleeding_Gums_02.png';
-import bleedingGumsBanner from '../../../public/dental-problems-img/bleeding gums/Bleeding_Gums_banner.jpg';
 import GumDisaese from '../../../public/dental-problems-img/bleeding gums/Gum_disaese_01.png';
 import ScalingNCleaning from '../../../public/dental-problems-img/bleeding gums/Scaling_and_Cleaning.png';
+// import bleedingGumsBanner from '../../../public/dental-problems-img/bleeding gums/Bleeding_Gums_banner.jpg';
+import bleedingGumsBanner from "../../../public/carrum-new/banner/bleeding-tooth.jpg";
 
 const WisdomToothPain = () => {
     return (

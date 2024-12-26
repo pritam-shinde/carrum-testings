@@ -5,7 +5,8 @@ import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 import { CommonHero, CommonSidebar, SectionalHeading } from '../../components/components'
 import Clinic from '../../public/contact/clinic.jpeg'
-import Banner from '../../public/contact/contact-us-bg.jpg'
+// import Banner from '../../public/contact/contact-us-bg.jpg'
+import Banner from "../../public/carrum-new/banner/contact-us.jpg";
 
 const Contact = () => {
   const [show, setShow] = useState(false)

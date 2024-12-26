@@ -5,7 +5,8 @@ import Head from 'next/head'
 import WPAPI from 'wpapi'
 import { XMasonry, XBlock } from 'react-xmasonry'
 import { BlogSidebar, BlueFilledBtn, CommonHero, CustomCard } from '../../components/components'
-import Banner from '../../public/CommonHero/blog-index-1.jpg'
+// import Banner from '../../public/CommonHero/blog-index-1.jpg'
+import Banner from "../../public/carrum-new/banner/blog.jpg";
 import { Box, Container, Grid } from '@mui/material'
 
 export const getServerSideProps = async () => {

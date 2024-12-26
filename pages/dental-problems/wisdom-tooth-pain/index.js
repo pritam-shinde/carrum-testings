@@ -1,15 +1,16 @@
-import React from "react";
-import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
 import { CheckCircleOutline } from "@mui/icons-material";
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
+import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
+import React from "react";
+import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from "../../../components/components";
 import wisdomTeeth1 from "../../../public/dental-problems-img/wisdom-teeth/Wisdom_teeth_01.png";
 import wisdomTeeth2 from "../../../public/dental-problems-img/wisdom-teeth/Wisdom_teeth_02.png";
-import denture from "../../../public/dental-problems-img/wisdom-teeth/Wisdom_Teeth_Removal.png";
 import wisdomTeeth3 from "../../../public/dental-problems-img/wisdom-teeth/Wisdom_teeth_03.png";
-import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from "../../../components/components";
-import Head from "next/head";
-import BannerWisdom from "../../../public/dental-problems-img/wisdom-teeth/Wisdom_teeth_banner.jpg";
+import denture from "../../../public/dental-problems-img/wisdom-teeth/Wisdom_Teeth_Removal.png";
+// import BannerWisdom from "../../../public/dental-problems-img/wisdom-teeth/Wisdom_teeth_banner.jpg";
+import BannerWisdom from "../../../public/carrum-new/banner/wisdom-teeth-pain.jpg";
+
 
 const WisdomToothPain = () => {
     return (

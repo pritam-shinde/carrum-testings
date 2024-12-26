@@ -5,10 +5,11 @@ import Image from 'next/image';
 import bruxiusm1 from '../../../public/dental-problems-img/bruxism/Bruxism_01.png'
 import bruxiusm2 from '../../../public/dental-problems-img/bruxism/Bruxism_02.png'
 import bruxiusm3 from "../../../public/dental-problems-img/bruxism/Bruxism_03.png"
-import Bruxism_banner from "../../../public/dental-problems-img/bruxism/Bruxism_banner.jpg"
 import DentalCrowns from "../../../public/dental-problems-img/bruxism/Dental_crowns_03.png"
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
+// import Bruxism_banner from "../../../public/dental-problems-img/bruxism/Bruxism_banner.jpg"
+import Bruxism_banner from "../../../public/carrum-new/banner/bruxism-bg.jpg";
 
 const Bruxism = () => {
     return (

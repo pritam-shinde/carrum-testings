@@ -6,11 +6,12 @@ import gumDisease1 from '../../../public/dental-problems-img/gum disease/Gum_Dis
 import gumDisease2 from '../../../public/dental-problems-img/gum disease/Gum_Disease_02.png'
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from '../../../components/components';
 import Head from 'next/head';
-import BannerGumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_banner.jpg"
 import GumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_Treatment.png"
 import Tooth_Extraction from "../../../public/dental-problems-img/gum disease/Tooth_Extraction_01.png"
 import Scaling from "../../../public/dental-problems-img/gum disease/Scaling_and_Cleaning.png"
 import Wisdom from "../../../public/dental-problems-img/gum disease/Wisdom_Teeth_Removal.png"
+// import BannerGumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_banner.jpg"
+import BannerGumDisease from "../../../public/carrum-new/banner/gum-disease.jpg";
 
 const GumDiseases = () => {
     return (
