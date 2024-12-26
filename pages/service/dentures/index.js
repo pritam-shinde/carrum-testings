@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 import { BookAndCall, CommonHero, CommonSidebar, InterestFree, SectionalHeading, TermsNCondition } from '../../../components/components'
 import DentureService from '../../../public/denture/denture-services.jpg'
 // import Banner from '../../../public/denture/denture.jpg'
-import Banner from '../../../public/carrum-new/banner/denchure.webp'
+import Banner from '../../../public/carrum-new/banner/denture.jpg'
 import Denture1 from '../../../public/denture/denture1.jpg'
 import Denture2 from '../../../public/denture/denture2.jpg'
 

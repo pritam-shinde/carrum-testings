@@ -5,7 +5,7 @@ import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
 import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
 // import Banner from '../../../public/RootCanal/root-canal-bg.jpg';
-import Banner from '../../../public/carrum-new/banner/missing-teeth.webp'
+import Banner from '../../../public/carrum-new/banner/missing-teeth1.jpg'
 import teethMissing1 from '../../../public/teeth-missing/Demo 01.png';
 import bridges from "../../../public/teeth-missing/teeth-missing-dental-bridges.png";
 import dentalImplants from "../../../public/teeth-missing/teeth-missing-dental-implants.png";

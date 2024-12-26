@@ -19,7 +19,6 @@ const FooterNew = () => {
         className="footer-bg"
         style={{
           boxShadow: "0 1rem 2rem rgba(0,0,0,0.5)",
-
           backgroundImage: `linear-gradient(to bottom, rgba(255,255,255,0.1) 50%, transparent 60%), url("/carrum-new/footer-image.png")`,
           backgroundSize: "100% 100%",
           backgroundPosition: "top center",
@@ -54,30 +53,34 @@ const FooterNew = () => {
                   <Typography component="span" variant="body1" fontWeight={600}>
                     SUBSCRIBE TO NEWSLETTER
                   </Typography>
-                  <Box display="flex">
-                    <TextField
-                      placeholder="Enter email address"
-                      variant="outlined"
-                      className="bg-transparent"
-                      sx={{
-                        flex: 1,
-                        "& .MuiOutlinedInput-root": {
-                          borderTopRightRadius: "0px",
-                          borderBottomRightRadius: "0px",
-                        },
-                      }}
-                    />
-                    <Button
-                      variant="contained"
-                      className="btn-color"
-                      style={{
-                        borderTopLeftRadius: 0,
-                        borderBottomLeftRadius: 0,
-                      }}
-                    >
-                      Send
-                    </Button>
-                  </Box>
+                  <form method='post' action='https://formsubmit.co/d53a69bc539b96c63b2afdcb0767af8d' encType="multipart/form-data">
+                    <Box display="flex">
+                      <TextField
+                        placeholder="Enter email address"
+                        variant="outlined"
+                        name="email"
+                        className="bg-transparent"
+                        sx={{
+                          flex: 1,
+                          "& .MuiOutlinedInput-root": {
+                            borderTopRightRadius: "0px",
+                            borderBottomRightRadius: "0px",
+                          },
+                        }}
+                      />
+                      <Button
+                        type="submit"
+                        variant="contained"
+                        className="btn-color"
+                        style={{
+                          borderTopLeftRadius: 0,
+                          borderBottomLeftRadius: 0,
+                        }}
+                      >
+                        Send
+                      </Button>
+                    </Box>
+                  </form>
                 </Stack>
               </Stack>
             </Grid>

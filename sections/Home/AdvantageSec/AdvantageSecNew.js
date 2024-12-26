@@ -44,7 +44,7 @@ const AdvantageSecNew = () => {
                         container
                         spacing={4}
                         // alignItems="center"
-                        alignItems={{ sm: 'start', md: 'center' }}
+                        alignItems={{ sm: 'start', md: 'start' }}
                         justifyContent={isSmallScreen ? "flex-start" : "space-around"}
                         sx={{ mt: 0 }}
                     >
@@ -84,7 +84,7 @@ const AdvantageSecNew = () => {
                                 <span className="me-2">Modern</span> <span>Dentistry</span>
                             </Typography>
                             <Typography sx={{ textAlign: isSmallScreen ? "left" : "right" }}>
-                                The field of dentistry is constantly evolving. New techniques and procedures expand dentists’ capabilities and deliver more comfortable, long-lasting, and effective solutions to dental patients.
+                                The field of dentistry is constantly evolving. New techniques and procedures expand dentists capabilities and deliver more comfortable, long-lasting, and effective solutions to dental patients.
                             </Typography>
                         </Grid>
                     </Grid>

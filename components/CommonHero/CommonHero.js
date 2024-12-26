@@ -273,7 +273,8 @@ const CommonHero = ({
                                           style={{
                                             marginLeft: "8px",
                                             fontSize: "18px",
-                                            transform: "rotate(90deg)"
+                                            transform: "rotate(90deg)",
+                                            color: "#fff !important"
                                           }}
                                         />
                                       )}
@@ -499,22 +500,13 @@ const CommonHero = ({
                                             </span>
                                           )}
                                         {item.link !== null ? (
-                                          <a
-                                            href={item.link}
-                                            style={{
-                                              color: "#fff",
-                                              fontWeight: "700",
-                                            }}
-                                          >
-                                            {item.title}
-                                          </a>
+                                          <Link href={item.link}>
+                                            <a className="text-white">
+                                              {item.title}
+                                            </a>
+                                          </Link>
                                         ) : (
-                                          <strong
-                                            style={{
-                                              color: "#ccc",
-                                              fontWeight: "700",
-                                            }}
-                                          >
+                                          <strong className="text-white">
                                             {item.title}
                                           </strong>
                                         )}

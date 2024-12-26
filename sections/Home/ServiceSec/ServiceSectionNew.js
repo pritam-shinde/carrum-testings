@@ -18,8 +18,8 @@ const ServiceSectionNew = () => {
                 <Grid container>
                     <Grid item xs={12} md={10} className="mx-auto">
                         <div className="mb-5">
-                            <p className="fs-5 mb-2">Pride in professional service</p>
-                            <div className="d-md-flex justify-content-between align-items-center">
+                            <p className="fs-5 mb-0">Pride in professional service</p>
+                            <div className="d-md-flex justify-content-between align-items-end">
                                 <h2 className="text-dark-blue" style={{ maxWidth: "460px" }}>
                                     Personalised care that you can depend on
                                 </h2>
