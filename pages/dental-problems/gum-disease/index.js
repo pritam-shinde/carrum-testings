@@ -1,15 +1,15 @@
-import React from 'react';
-import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
-import { CheckCircleOutline } from '@mui/icons-material'
-import Image from 'next/image';
-import gumDisease1 from '../../../public/dental-problems-img/gum disease/Gum_Disease_01.png'
-import gumDisease2 from '../../../public/dental-problems-img/gum disease/Gum_Disease_02.png'
-import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from '../../../components/components';
+import { CheckCircleOutline } from '@mui/icons-material';
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from '@mui/material';
 import Head from 'next/head';
-import GumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_Treatment.png"
-import Tooth_Extraction from "../../../public/dental-problems-img/gum disease/Tooth_Extraction_01.png"
-import Scaling from "../../../public/dental-problems-img/gum disease/Scaling_and_Cleaning.png"
-import Wisdom from "../../../public/dental-problems-img/gum disease/Wisdom_Teeth_Removal.png"
+import Image from 'next/image';
+import React from 'react';
+import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from '../../../components/components';
+import gumDisease1 from '../../../public/dental-problems-img/gum disease/Gum_Disease_01.png';
+import gumDisease2 from '../../../public/dental-problems-img/gum disease/Gum_Disease_02.png';
+import GumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_Treatment.png";
+import Scaling from "../../../public/dental-problems-img/gum disease/Scaling_and_Cleaning.png";
+import Tooth_Extraction from "../../../public/dental-problems-img/gum disease/Tooth_Extraction_01.png";
+import Wisdom from "../../../public/dental-problems-img/gum disease/Wisdom_Teeth_Removal.png";
 // import BannerGumDisease from "../../../public/dental-problems-img/gum disease/Gum_Disease_banner.jpg"
 import BannerGumDisease from "../../../public/carrum-new/banner/gum-disease.jpg";
 
@@ -17,7 +17,7 @@ const GumDiseases = () => {
     return (
         <>
             <Head>
-                <title>A Guide to Understanding Gum Disease l Carrum Down Dental</title>
+                <title>A Guide to Understanding Gum Disease | Carrum Down Dental</title>
                 <meta name="description" content="Gum disease is an infection of the gums rather than the teeth. Gum disease might start long before you have any symptoms or signs. Contact Carrum Downs Dental for more." />
                 <meta name="robots" content="index" />
             </Head>

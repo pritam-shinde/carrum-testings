@@ -20,7 +20,8 @@
     }
 
     .deskNavbarBrandMenu {
-        width: 80% !important;
+        width: 250px !important;
+        height: 100px !important;
         margin: 1px auto;
     }
 }
