@@ -63,21 +63,16 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>We are Open 7 Days.</strong>} />
                                     </ListItem>
                                 </List>
-                                {/* <Box p={3} mt={2}>
-                                    <div className="sectional-heading2">Scan for Direction</div>
-                                    <Box>
-                                        <img src={Scan.src} alt="scan" style={{ maxWidth: "60%" }} />
-                                    </Box>
-                                </Box> */}
-                                <Box p={3} mt={2} sx={{
+                                <Box px={2} mt={1} sx={{
                                     display: 'flex',
                                     flexDirection: 'column',
-                                    alignItems: { xs: 'center', md: 'flex-start' },
+                                    alignItems: { xs: 'center', lg: 'flex-start' },
                                     justifyContent: 'center',
+                                    maxWidth: '400px'
                                 }}>
                                     <div className="sectional-heading2">Scan for Direction</div>
                                     <Box >
-                                        <img src={Scan.src} alt="scan" style={{ maxWidth: "60%" }} />
+                                        <img src={Scan.src} alt="scan" style={{ maxWidth: "100%" }} />
                                     </Box>
                                 </Box>
                             </Box>
