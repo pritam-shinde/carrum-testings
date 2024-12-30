@@ -152,8 +152,8 @@ const ServiceCard = ({
                     <path d="M18.5 25L36.5 0H0L18.5 25Z" fill="#19BEB9" />
                 </svg>
                 {/* content */}
-                <h5
-                    className="fw-bold heading-color"
+                <h3
+                    className="fw-bold fs-4 heading-color"
                     style={{
                         position: "relative",
                         zIndex: 1,
@@ -162,7 +162,7 @@ const ServiceCard = ({
                     {title}
                     <br />
                     {subtitle}
-                </h5>
+                </h3>
                 <p
                     className="text-dark"
                     style={{

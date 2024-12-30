@@ -204,7 +204,6 @@ const CommonHero = ({
           className="custom-padding-top-hero"
         ></Box>
       )}
-
       {/* Hero content */}
       <Box
         style={{
@@ -340,10 +339,10 @@ const CommonHero = ({
                                   borderRadius: "12px",
                                 }}
                               >
-                                <h5 className="mb-0 d-flex flex-column fw-normal">
+                                <p className="mb-0 fs-4 d-flex flex-column fw-normal">
                                   <span>Book Online</span>
                                   <span>Appointment</span>
-                                </h5>
+                                </p>
                                 <div
                                   className="d-flex align-items-center justify-content-between mt-0 mt-md-4"
                                   style={{
@@ -390,10 +389,10 @@ const CommonHero = ({
                                   borderRadius: "12px",
                                 }}
                               >
-                                <h5 className="mb-0 d-flex flex-column fw-normal">
+                                <p className="mb-0 fs-4 d-flex flex-column fw-normal">
                                   <span>Or Call</span>
                                   <span>03 - 9782 1200</span>
-                                </h5>
+                                </p>
                                 <div
                                   className="d-flex align-items-center justify-content-between mt-0 mt-md-4"
                                   style={{
@@ -506,7 +505,7 @@ const CommonHero = ({
                                             </a>
                                           </Link>
                                         ) : (
-                                          <strong className="text-white">
+                                          <strong className="text-white fs-18-inner">
                                             {item.title}
                                           </strong>
                                         )}
@@ -629,263 +628,3 @@ const CommonHero = ({
 };
 
 export default CommonHero;
-
-// -------------------------------------------------------
-
-{/* <Box>
-                  <div className="row gap-5 gap-xl-0 ">
-                    <div className="col-12 col-xl-7 col-xxl-7">
-                      {pathName === "index" ? (
-                        <>
-                          <h1 className="fw-bold text-white">
-                            {slideContents[activeSlide].title}
-                          </h1>
-                          <p
-                            className="fs-18 text-light mt-3 mb-4"
-                            style={{ maxWidth: "600px" }}
-                          >
-                            {slideContents[activeSlide].description}
-                          </p>
-                          <Link
-                            href={slideContents[activeSlide].buttonLink}
-                            passHref
-                          >
-                            <a className="text-dark fw-bold px-4 py-3 view-hover-btn rounded-2">
-                              {slideContents[activeSlide].buttonText}
-                            </a>
-                          </Link>
-                        </>
-                      ) : (
-                        <>
-                          <h1 className="fw-bold text-white">{title}</h1>
-                          {breadcrumb !== null ? (
-                            <nav aria-label="breadcrumb">
-                              <ul className="breadcrumb">
-                                {breadcrumb.map((item, index) => (
-                                  <li
-                                    key={item.id}
-                                    className={`breadcrumb-item ${item.link === null ? "active" : ""
-                                      }`}
-                                    aria-current={
-                                      item.link === null ? "page" : null
-                                    }
-                                  >
-                                    {item.title !== "Services" &&
-                                      index !== 0 && (
-                                        <span className="arrow-right">
-                                          <KeyboardArrowRight />{" "}
-                                        </span>
-                                      )}
-                                    {item.link !== null ? (
-                                      <a
-                                        href={item.link}
-                                        style={{
-                                          color: "#fff",
-                                          fontWeight: "700",
-                                        }}
-                                      >
-                                        {item.title}
-                                      </a>
-                                    ) : (
-                                      <strong
-                                        style={{
-                                          color: "#ccc",
-                                          fontWeight: "700",
-                                        }}
-                                      >
-                                        {item.title}
-                                      </strong>
-                                    )}
-                                  </li>
-                                ))}
-                              </ul>
-                            </nav>
-                          ) : null}
-                          {desc ? (
-                            <p
-                              className="fs-18 text-light mt-3 mb-4"
-                              style={{ maxWidth: "600px" }}
-                            >
-                              {desc}
-                            </p>
-                          ) : null}
-                        </>
-                      )}
-                    </div>
-                    <div className="col-12 col-xl-5 col-xxl-5">
-                      <div className="row g-3 pe-5 pe-md-0">
-                        <div className="col-12 col-sm-6">
-                          <div
-                            className="card text-white p-3 h-100 d-flex justify-content-between align-items-start mob-width-hero"
-                            style={{
-                              backgroundColor: "rgba(255,255,255,0.27)",
-                              backdropFilter: "blur(5px)",
-                              borderWidth: "1px",
-                              borderColor: "rgba(255,255,255,0.2)",
-                              borderRadius: "12px",
-                            }}
-                          >
-                            <h5 className="mb-0 d-flex flex-column">
-                              <span>Book Online</span>
-                              <span>Appointment</span>
-                            </h5>
-
-                            <div
-                              className="d-flex align-items-center justify-content-between mt-0 mt-md-4"
-                              style={{
-                                width: "100%",
-                              }}
-                            >
-                              <div
-                                className="rounded-circle d-flex align-items-center justify-content-center ms-auto"
-                                style={{
-                                  width: "40px",
-                                  height: "40px",
-                                  backgroundColor: "#115278",
-                                  transition: "transform 0.3s ease",
-                                }}
-                              >
-                                <Link href="/book-now/" passHref>
-                                  <a className="d-flex align-items-center justify-content-center text-decoration-none text-white p-3">
-                                    <ChevronRightIcon
-                                      sx={{
-                                        fontSize: "2rem",
-                                        backgroundColor: "#115278",
-                                        borderRadius: "50%",
-                                        transition: "transform 0.3s ease",
-                                        "&:hover": {
-                                          transform: "rotate(-90deg)",
-                                        },
-                                      }}
-                                    />
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="col-12 col-sm-6">
-                          <div
-                            className="card text-white p-3 h-100 d-flex justify-content-between align-items-start mob-width-hero"
-                            style={{
-                              backgroundColor: "rgba(255,255,255,0.27)",
-                              backdropFilter: "blur(5px)",
-                              borderWidth: "1px",
-                              borderColor: "rgba(255,255,255,0.2)",
-                              borderRadius: "12px",
-                            }}
-                          >
-                            <h5 className="mb-0 d-flex flex-column">
-                              <span>Or Call</span>
-                              <span>03 - 9782 1200</span>
-                            </h5>
-
-                            <div
-                              className="d-flex align-items-center justify-content-between mt-4"
-                              style={{
-                                width: "100%",
-                              }}
-                            >
-                              <div
-                                className="rounded-circle d-flex align-items-center justify-content-center ms-auto"
-                                style={{
-                                  width: "40px",
-                                  height: "40px",
-                                  backgroundColor: "#115278",
-                                  transition: "transform 0.3s ease",
-                                }}
-                              >
-                                <Link href="tel:03-9782-1200" passHref>
-                                  <a
-                                    className="d-flex align-items-center justify-content-center text-decoration-none text-white"
-                                    style={{
-                                      width: "100%",
-                                      height: "100%",
-                                      transition: "transform 0.3s ease",
-                                    }}
-                                  >
-                                    <ChevronRightIcon
-                                      sx={{
-                                        fontSize: "2rem",
-                                        backgroundColor: "#115278",
-                                        borderRadius: "50%",
-                                        transition: "transform 0.3s ease",
-                                        "&:hover": {
-                                          transform: "rotate(-90deg)",
-                                        },
-                                      }}
-                                    />
-                                  </a>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </Box>
-                <Stack direction={"row"} gap={1} marginTop={4}>
-                  {[0, 1, 2].map((x) => (
-                    <Box
-                      key={x}
-                      style={{
-                        padding: "8px",
-                        borderRadius: "4px",
-                        backgroundColor:
-                          activeSlide === x ? "#19BEB9" : "#949494",
-                      }}
-                    ></Box>
-                  ))}
-                </Stack> */}
-
-// -------------------------------------------------------
-
-// import { KeyboardArrowRight } from '@mui/icons-material'
-// import { Box, Container, Grid, Typography } from '@mui/material'
-// import React from 'react'
-// import Styles from '../../styles/components-style/CommonHero/CommonHero.module.css'
-
-// const CommonHero = ({ align, title, color, breadcrumb, bg, desc }) => {
-//   return (
-//     <>
-//       <Container maxWidth="xxl" className={`${Styles.commonHero}`} style={{ backgroundImage: `url(${bg.src})` }}>
-//         <Grid container style={{ height: '100%' }}>
-//           <Grid item xs={12} md={10} className="mx-auto d-flex align-items-center" style={{ height: '100%' }}>
-//             <Box>
-//               <Typography variant='h1' align={align} style={{ color: color }}>{title}</Typography>
-//               <Box py={2}>
-//                 {
-//                   (breadcrumb !== null) ? <nav aria-label="breadcrumb">
-//                     <ul className='breadcrumb'>
-//                       {
-//                         breadcrumb.map((item, index) => (
-//                           <li key={item.id} className={`breadcrumb-item ${item.link === null ? 'active' : ''}`} aria-current={item.link === null ? 'page' : null}>
-//                             {item.title !== 'Services' && index !== 0 && <span className='arrow-right'><KeyboardArrowRight /> </span>}
-//                             {
-//                               item.link !== null ?
-//                                 <a href={item.link} style={{ color: '#fff', fontWeight: "700" }}>
-//                                   {item.title}
-//                                 </a>
-//                                 : <strong style={{ color: '#ccc', fontWeight: "700" }}>{item.title}</strong>
-//                             }
-//                           </li>
-//                         ))
-//                       }
-//                     </ul>
-//                   </nav> : null
-//                 }
-//                 {
-//                   (desc ? <Typography className='HeroPara font-banner text-white'>{desc} </Typography> : null)
-//                 }
-//               </Box>
-//             </Box>
-//           </Grid>
-//         </Grid>
-//       </Container>
-//     </>
-//   )
-// }
-
-// export default CommonHero

@@ -134,10 +134,11 @@ const OfferNew = () => {
                                                 }}
                                             >
                                                 <Typography
-                                                    variant="h4"
+                                                    variant="h3"
                                                     color="#000"
                                                     align="left"
                                                     gutterBottom
+                                                    className="fs-3"
                                                 >
                                                     {item.title}
                                                 </Typography>

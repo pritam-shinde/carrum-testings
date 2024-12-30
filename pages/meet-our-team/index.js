@@ -2,8 +2,8 @@ import { Box, Card, CardContent, CardMedia, Container, Grid, Typography } from '
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react'
 import { CommonHero } from '../../components/components';
-// import Banner from '../../public/meet-our-team/meet-our-team.jpg'
-import Banner from '../../public/carrum-new/banner/meet-team.webp'
+import Banner from '../../public/meet-our-team/meet-our-team.jpg'
+// import Banner from '../../public/carrum-new/banner/meet-team.webp'
 import Swati from "../../public/meet-our-team/DrSwati.webp"
 import Divya from "../../public/meet-our-team/DrDivya.webp"
 import Chandni from "../../public/meet-our-team/DrChandni.jpeg"

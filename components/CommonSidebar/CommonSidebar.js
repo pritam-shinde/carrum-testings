@@ -42,7 +42,7 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>Clinic</strong>} secondary="Shop T5, 100 Hall Road, Carrum Downs" />
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemText primary={<strong>E-mail</strong>} secondary={<a className='text-dark-blue' href="mailto:carrumdownsdental@gmail.com">carrumdownsdental@gmail.com</a>} />
+                                        <ListItemText primary={<strong>E-mail</strong>} secondary={<a className='fs-14 text-dark-blue' href="mailto:carrumdownsdental@gmail.com">carrumdownsdental@gmail.com</a>} />
                                     </ListItem>
                                     <ListItem>
                                         <ListItemText primary={<strong>Phone</strong>} secondary={
@@ -63,9 +63,20 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>We are Open 7 Days.</strong>} />
                                     </ListItem>
                                 </List>
-                                <Box p={3} mt={2}>
+                                {/* <Box p={3} mt={2}>
                                     <div className="sectional-heading2">Scan for Direction</div>
                                     <Box>
+                                        <img src={Scan.src} alt="scan" style={{ maxWidth: "60%" }} />
+                                    </Box>
+                                </Box> */}
+                                <Box p={3} mt={2} sx={{
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    alignItems: { xs: 'center', md: 'flex-start' },
+                                    justifyContent: 'center',
+                                }}>
+                                    <div className="sectional-heading2">Scan for Direction</div>
+                                    <Box >
                                         <img src={Scan.src} alt="scan" style={{ maxWidth: "60%" }} />
                                     </Box>
                                 </Box>

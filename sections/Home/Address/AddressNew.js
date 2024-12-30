@@ -59,12 +59,12 @@ const AddressNew = () => {
                                         overflow: "hidden",
                                     }}
                                 />
-                                <h6 className="text-dark-blue text-center m-0">
+                                <h3 className="text-dark-blue text-center m-0 fs-6">
                                     Scan for Direction
-                                </h6>
+                                </h3>
                             </Stack>
-                            <Stack justifyContent={"space-between"} spacing={{ xs: 2, sm: 0 }}>
-                                <h4 className="text-dark-blue m-0 pt-2">Carrum Downs Dental Group</h4>
+                            <Stack justifyContent={{ xs: "space-evenly", md: "space-evenly", lg: "space-between" }} spacing={{ xs: 2, sm: 0 }}>
+                                <h3 className="text-dark-blue m-0 pt-2 fs-2">Carrum Downs Dental Group</h3>
                                 <Stack spacing={{ xs: 1, md: 2 }}>
                                     <Stack flexDirection={"row"} justifyContent={"between"} alignItems={"center"} gap={2} >
                                         <Box><svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

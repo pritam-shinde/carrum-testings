@@ -358,6 +358,7 @@ footer a:hover {
   .mob-width-hero {
     max-width: 190px;
   }
+
 }
 
 /* General video-embed wrapper for responsive behavior */
@@ -763,6 +764,7 @@ footer a:hover {
     background-size: cover !important;
     background-position: top center;
   }
+
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -1075,6 +1077,12 @@ span.arrow-right {
   font-size: clamp(16px, 3vw, 18px) !important;
 }
 
+.fs-18-inner {
+  font-size: clamp(16px, 3vw, 18px) !important;
+  font-weight: 400 !important;
+  line-height: 27px !important;
+}
+
 .heading-color {
   color: #115278 !important;
 }
@@ -1248,4 +1256,8 @@ a #home-link {
 .dropdown-item:focus,
 .dropdown-item:hover {
   background-color: transparent;
+}
+
+.scanner-section {
+  max-width: 60%;
 }
