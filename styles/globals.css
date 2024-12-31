@@ -222,6 +222,22 @@ footer a:hover {
   margin-right: 0.5rem;
 }
 
+.teethWhiteningBtn {
+  padding: 0.5rem 1rem !important;
+  background-color: var(--dark-blue) !important;
+  border: 1px solid var(--dark-blue) !important;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.teethWhiteningBtn:hover {
+  background-color: #fff !important;
+}
+
+.teethWhiteningBtn:hover a {
+  color: var(--dark-blue) !important;
+}
+
 #service .css-o69gx8-MuiCardMedia-root {
   width: auto !important;
 }

@@ -46,7 +46,7 @@ const CNB = () => {
                         <Grid container>
                             <Grid item xs={12} md={11} className="mx-auto">
                                 <Box mt={3}>
-                                    <SectionalHeading variant="h2" title="Procedure followed at Carrum Downs Dental Group for your Crown preparation" align="left" color="var(--dark-blue)" />
+                                    <SectionalHeading variant="h2" title="Procedure followed at Carrum Downs Dental Group for your Crown preparation" align="center" color="var(--dark-blue)" />
                                     <List>
                                         {
                                             ["On your first visit a thorough clinical examination is conducted by the dentist with radiographs. During this time the suitability of the crown is assessed and any preparatory work is undertaken. Your dentist will explain the treatment sequence, material choices and will answer your concerns.", "On your second visit, the teeth receiving crown is prepared. This involves reduction of the tooth size (usually under local anaesthesia) followed by an impression or mould of the prepared tooth. This trimming of the tooth is required to create space for the crown to be fitted. The mould taken is then sent to a laboratory where skilled technicians will fabricate the crown. In the meantime, a temporary crown is made and fitted onto the trimmed tooth.", "On the third visit, the temporary crown is removed and the tooth surface is cleaned. The completed crown is tied on to the teeth, checked for correct bite fit and appearance. The crown is strongly cemented to the teeth."].map(item => <ListItem key={item}>

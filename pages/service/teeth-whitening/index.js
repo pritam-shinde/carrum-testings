@@ -84,7 +84,7 @@ const TW = () => {
                                                                         </ListItem>
                                                                     </List>
                                                                     <Box mt={2}>
-                                                                        <Button className='blueFilledBtn cardBtn' onClick={() => setSelectedTab('zoom')}><a href="#tab" className='text-white'>Read More</a></Button>
+                                                                        <Button className='teethWhiteningBtn cardBtn' onClick={() => setSelectedTab('zoom')}><a href="#tab" className='text-white'>Read More</a></Button>
                                                                     </Box>
                                                                 </CardContent>
                                                             </Card>
@@ -133,7 +133,7 @@ const TW = () => {
                                                                         </ListItem>
                                                                     </List>
                                                                     <Box mt={2}>
-                                                                        <Button className='blueFilledBtn cardBtn' onClick={() => setSelectedTab('boutique')}><a href="#tab" className='text-white'>Read More</a></Button>
+                                                                        <Button className='teethWhiteningBtn cardBtn' onClick={() => setSelectedTab('boutique')}><a href="#tab" className='text-white'>Read More</a></Button>
                                                                     </Box>
                                                                 </CardContent>
                                                             </Card>
@@ -148,19 +148,19 @@ const TW = () => {
                                                             <Grid item xs={12} sm={6} md={4} >
                                                                 <Typography variant='h3' className='fs-4' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Ageing</Typography>
                                                                 <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
-                                                                    <Image src={Age} alt="age" className='rounded' />
+                                                                    <Image src={Age} alt="age" className='rounded' priority />
                                                                 </Box>
                                                             </Grid>
                                                             <Grid item xs={12} sm={6} md={4} >
                                                                 <Typography variant='h3' className='fs-4' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Genetic</Typography>
                                                                 <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
-                                                                    <Image src={Gen} alt="gen" className='rounded' />
+                                                                    <Image src={Gen} alt="gen" className='rounded' priority />
                                                                 </Box>
                                                             </Grid>
                                                             <Grid item xs={12} sm={6} md={4} >
                                                                 <Typography variant='h3' className='fs-4' gutterBottom style={{ color: "var(--dark-blue)" }}><CheckCircleOutline /> Smoking</Typography>
                                                                 <Box p={3} className='rounded' style={{ border: "5px solid var(--dark-blue)" }}>
-                                                                    <Image src={Smoking} alt="smoking" className='rounded' />
+                                                                    <Image src={Smoking} alt="smoking" className='rounded' priority />
                                                                 </Box>
                                                             </Grid>
                                                         </Grid>
@@ -182,7 +182,7 @@ const TW = () => {
                                                                         <Box>
                                                                             <Grid container>
                                                                                 <Grid item xs={12} sm={6} className="pe-2">
-                                                                                    <Image src={Apply} alt="day" className='rounded' />
+                                                                                    <Image src={Apply} alt="day" className='rounded' priority />
                                                                                 </Grid>
                                                                                 <Grid item xs={12} sm={6} className="ps-2">
                                                                                     <Typography variant='h3' className="fs-4 tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Zoom Teeth Whitening</Typography>
@@ -245,7 +245,7 @@ const TW = () => {
                                                                         <Box mt={3}>
                                                                             <Grid container>
                                                                                 <Grid xs={12} sm={6} className="pe-2">
-                                                                                    <Image src={BDAY} alt="day" className='rounded' />
+                                                                                    <Image src={BDAY} alt="day" className='rounded' priority />
                                                                                 </Grid>
                                                                                 <Grid xs={12} sm={6} className="ps-2">
                                                                                     <Typography variant='h3' className="fs-4 tabHead fw-bold m-0" style={{ color: "var(--dark-blue)" }}>Boutique Whitening by Day</Typography>
@@ -265,7 +265,7 @@ const TW = () => {
                                                                                     <Typography className='para'>Boutique by night is a whitening method that uses potassium nitrate and carbamide peroxide as the main ingredients. These compounds have lower whitening gel concertation compared to the one used on boutique by night. </Typography>
                                                                                 </Grid>
                                                                                 <Grid xs={12} sm={6} className="ps-2">
-                                                                                    <Image src={NightB} alt="night" className='rounded' />
+                                                                                    <Image src={NightB} alt="night" className='rounded' priority />
                                                                                 </Grid>
                                                                             </Grid>
                                                                             <Typography className='para'>The trays should be worn for roughly 4 hours at night, although it is advisable that you wear your trays for at least 6 hours to obtain the maximum benefit. This method is best for people who run a busy schedule and would like to have the treatment done at night. </Typography>

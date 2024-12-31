@@ -9,14 +9,14 @@ const FaqVeneers = () => {
         <Box>
           <Box>
             <SectionalHeading variant="h2" color="var(--dark-blue)" title="Frequently Asked Questions (FAQs)" align="center" />
-            <Typography className='para text-center veneer-font-color mt-4' style={{lineHeight:1.6, fontWeight:"bold"}}>Below are some of our most frequently asked questions regarding our porcelain veneers. If you have a different question, please don't hesitate to get in touch with our team.</Typography>
+            <Typography className='para text-center veneer-font-color mt-4' style={{ lineHeight: 1.6, fontWeight: "bold" }}>Below are some of our most frequently asked questions regarding our porcelain veneers. If you have a different question, please don't hesitate to get in touch with our team.</Typography>
           </Box>
           <Box mt={3}>
             <div className="accordion" id="accordionExample">
               <div className="accordion-item">
                 <h3 className="accordion-header" id="headingOne">
                   <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    ARE PORCELAIN VENEERS WHAT I NEED?
+                    Are porcelain veneers what I need?
                   </button>
                 </h3>
                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -28,7 +28,7 @@ const FaqVeneers = () => {
               <div className="accordion-item">
                 <h3 className="accordion-header" id="headingTwo">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    HOW STRONG ARE VENEERS AND HOW LONG DO THEY LAST?
+                    How strong are veneers and how long do they last?
                   </button>
                 </h3>
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -40,7 +40,7 @@ const FaqVeneers = () => {
               <div className="accordion-item">
                 <h3 className="accordion-header" id="headingThree">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    WHY DO PEOPLE CHOOSE PORCELAIN VENEERS?
+                    Why do people choose porcelain veneers?
                   </button>
                 </h3>
                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -52,7 +52,7 @@ const FaqVeneers = () => {
               <div className="accordion-item">
                 <h3 className="accordion-header" id="headingFour">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    HOW MUCH DO PORCELAIN VENEERS COST?
+                    How much do porcelain veneers cost?
                   </button>
                 </h3>
                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -64,7 +64,7 @@ const FaqVeneers = () => {
               <div className="accordion-item">
                 <h3 className="accordion-header" id="headingFive">
                   <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    HOW LONG DOES THE DENTAL VENEERS PROCEDURE TAKE?
+                    How long does the dental veneers procedure take?
                   </button>
                 </h3>
                 <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
