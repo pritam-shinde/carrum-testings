@@ -130,7 +130,7 @@ const DentureTechnology = () => {
                                                 {/* tab section  */}
                                                 <section className='mt-md-5 mt-4'>
                                                     <Container maxWidth="xxl" >
-                                                        <Box style={{ color: "var(--dark-blue)" }} xs={12} lg={8} className="border">
+                                                        <Box xs={12} lg={8} className="border">
                                                             <Box sx={{ width: '100%' }}>
                                                                 <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
                                                                     <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
@@ -170,7 +170,7 @@ const DentureTechnology = () => {
                                                                                     <ListItemText primary={<strong>Partial dentures</strong>} secondary="Usually made out of acrylic or a metal framework to replace one or more teeth." />
                                                                                 </ListItem>
                                                                                 <Box mt={3}>
-                                                                                    <Button className='blueFilledBtn' onClick={() => setSelectedTab('Denture (Traditional)')}><a href="https://carrumdownsdental.com.au/service/dentures/" className='text-white'>Learn More..</a></Button>
+                                                                                    <Button className='teethWhiteningBtn' onClick={() => setSelectedTab('Denture (Traditional)')}><a href="https://carrumdownsdental.com.au/service/dentures/" className='text-white'>Learn More</a></Button>
                                                                                 </Box>
                                                                             </List>
                                                                         </Box>
@@ -206,7 +206,7 @@ const DentureTechnology = () => {
                                                                                 </Grid>
                                                                             </Box>
                                                                             <Box mt={3}>
-                                                                                <Button style={{ width: "10rem" }} className='blueFilledBtn' onClick={() => setSelectedTab('Digital Denture')}><a href="https://carrumdownsdental.com.au/service/digital-dentures/" className='text-white'>Learn More..</a></Button>
+                                                                                <Button style={{ width: "10rem" }} className='teethWhiteningBtn' onClick={() => setSelectedTab('Digital Denture')}><a href="https://carrumdownsdental.com.au/service/digital-dentures/" className='text-white'>Learn More</a></Button>
                                                                             </Box>
                                                                         </Container>
 
@@ -237,7 +237,7 @@ const DentureTechnology = () => {
                                                                             <Typography className='para'>An implant-supported overdenture uses some special attachments that snap onto the implants. Like regular dentures, an implant-supported overdenture must be taken out at night for cleaning purposes. It would be best if you also cleaned the gums and implant attachments.</Typography>
                                                                             <Typography className='para'>Millions of individuals across the globe are missing enough teeth to necessitate the use of conventional dentures. Therefore, most of them face difficulties keeping themselves securely in place, particularly in the lower jaw. If you struggle with loose dentures, you must be familiar with the embarrassment that comes with slipping dentures and the inability to enjoy your favorite foods.</Typography>
                                                                             <Box mt={3}  >
-                                                                                <Button style={{ width: "10rem" }} className='blueFilledBtn' onClick={() => setSelectedTab('Overdenture')}><a href="https://carrumdownsdental.com.au/service/implant-supported-denture/" className='text-white'>Learn More..</a></Button>
+                                                                                <Button style={{ width: "10rem" }} className='teethWhiteningBtn' onClick={() => setSelectedTab('Overdenture')}><a href="https://carrumdownsdental.com.au/service/implant-supported-denture/" className='text-white'>Learn More</a></Button>
                                                                             </Box>
                                                                         </Box>
                                                                     </Container>
