@@ -198,7 +198,8 @@ const CommonHero = ({
           sx={{
             backgroundImage: `url(${bg.src})`,
             backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
+            backgroundPosition: { xs: "70%", md: "center" },
+            // backgroundPosition: "center",
             backgroundSize: "cover",
           }}
           className="custom-padding-top-hero"

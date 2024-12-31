@@ -231,7 +231,7 @@ const Veneers = ({ data }) => {
             <section
               className="teeth-missing-section1">
               <Container>
-                <Typography variant="h5" component="h2" gutterBottom className="text-center" style={{ color: "#115278" }}>
+                <Typography variant="h5" component="h2" gutterBottom className="text-left text-md-center" style={{ color: "#115278" }}>
                   Our Process
                 </Typography>
                 <Typography className="para mt-2">
@@ -301,7 +301,7 @@ const Veneers = ({ data }) => {
                     <Typography className="para font-white" style={{ color: "#115278" }} variant="h2" sx={{ pb: 2 }}>
                       Our Guarantee
                     </Typography>
-                    <Typography className="para font-white" style={{ lineHeight: 2.2 }}>At Carrum Downs Dental Group, we guarantee you will love your smile. We won't stop until you do. Your smile will be designed specifically for you, and our smile makeover team are true artists and perfectionists. We will only design and craft smiles that we would want for ourselves.</Typography>
+                    <Typography className="para font-white" style={{ lineHeight: 2.8 }}>At Carrum Downs Dental Group, we guarantee you will love your smile. We won't stop until you do. Your smile will be designed specifically for you, and our smile makeover team are true artists and perfectionists. We will only design and craft smiles that we would want for ourselves.</Typography>
                     <Box>
                       <BlueFilledBtn navlink={true} btnTitle="BOOK NOW" btnLink="/book-now/" ariaLabel="book now" />
                     </Box>

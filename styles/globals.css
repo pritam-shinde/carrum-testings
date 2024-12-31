@@ -1278,3 +1278,9 @@ a #home-link {
 .scanner-section {
   max-width: 60%;
 }
+
+button#simple-tab-0,
+button#simple-tab-1,
+button#simple-tab-2 {
+  font-size: clamp(12px, 4vw, 14px) !important;
+}
