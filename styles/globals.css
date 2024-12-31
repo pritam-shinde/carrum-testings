@@ -157,7 +157,7 @@ li.nav-item.dropdown:hover .dropdown-menu {
   /* added width and below css */
   width: fit-content;
   position: absolute;
-  left: 8rem;
+  left: 8.5rem;
   top: 0 !important;
   background: rgb(199 199 199 / 45%);
   /* background: #ffffff66; */

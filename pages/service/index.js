@@ -131,14 +131,65 @@ const Service = () => {
                                                     image: toothFilling,
                                                     anchor: null
                                                 },
+                                                {
+                                                    id: "service-13",
+                                                    title: "Invisalign Open Day",
+                                                    link: "/service/invisalign-open-day/",
+                                                    excerpt: "Explore Invisalign and enjoy exclusive offers on our open day!",
+                                                    image: toothFilling,
+                                                    anchor: null
+                                                },
+                                                {
+                                                    id: "service-14",
+                                                    title: "Smile Design",
+                                                    link: "/service/smile-design/",
+                                                    excerpt: "Achieve your dream smile with personalized design solutions!",
+                                                    image: toothFilling,
+                                                    anchor: null
+                                                },
+                                                {
+                                                    id: "service-15",
+                                                    title: "Digital Dentures",
+                                                    link: "/service/digital-dentures/",
+                                                    excerpt: "Experience comfort and precision with advanced digital dentures!",
+                                                    image: toothFilling,
+                                                    anchor: null
+                                                },
+                                                {
+                                                    id: "service-16",
+                                                    title: "Implant Supported Denture",
+                                                    link: "/service/implant-supported-denture/",
+                                                    excerpt: "Enjoy stability and confidence with implant-supported dentures!",
+                                                    image: toothFilling,
+                                                    anchor: null
+                                                },
+                                                {
+                                                    id: "service-17",
+                                                    title: "Denture Technology",
+                                                    link: "/service/denture-technology/",
+                                                    excerpt: "Discover innovative solutions with advanced denture technology.",
+                                                    image: toothFilling,
+                                                    anchor: null
+                                                },
+                                                {
+                                                    id: "service-18",
+                                                    title: "Sleep Dentistry",
+                                                    link: "/service/sleep-dentistry/",
+                                                    excerpt: "Experience stress-free dental care with comfortable sleep dentistry.",
+                                                    image: toothFilling,
+                                                    anchor: null
+                                                },
                                             ].map(item => <Grid item key={item.id} xs={12} sm={6} md={4}>
-                                                <Box className='shadow' p={3} component={Paper}>
+                                                <Box className='shadow' p={3} component={Paper} style={{
+                                                    display: "flex", flexDirection: 'column', minHeight: "350px", height: "100%",
+                                                    justifyContent: "space-between",
+                                                }}>
                                                     <Box className="d-flex justify-content-center align-items-center py-3">
                                                         <Box p={2} style={{ height: "5rem", width: "5rem", borderRadius: "50%", border: "1px solid var(--dark-green)" }} className="d-flex justify-content-center align-items-center">
                                                             <img src={item.image.src} alt={item.title} className="img-fluid" />
                                                         </Box>
                                                     </Box>
-                                                    <Box mt={4}>
+                                                    <Box mt={4} style={{ flexGrow: 1, textAlign: 'center' }}>
                                                         <Typography gutterBottom variant='h5' align='center' style={{ color: "var(--dark-blue)" }}><a href={item.link} style={{ color: "var(--dark-blue)" }}>{item.title}</a></Typography>
                                                         <Typography align="center">{item.excerpt}</Typography>
                                                     </Box>

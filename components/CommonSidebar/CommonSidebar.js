@@ -42,7 +42,7 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>Clinic</strong>} secondary="Shop T5, 100 Hall Road, Carrum Downs" />
                                     </ListItem>
                                     <ListItem>
-                                        <ListItemText primary={<strong>E-mail</strong>} secondary={<a className='fs-14 text-dark-blue' href="mailto:carrumdownsdental@gmail.com">carrumdownsdental@gmail.com</a>} />
+                                        <ListItemText primary={<strong>E-mail</strong>} secondary={<a className='fs-15 text-dark-blue' href="mailto:carrumdownsdental@gmail.com">carrumdownsdental@gmail.com</a>} />
                                     </ListItem>
                                     <ListItem>
                                         <ListItemText primary={<strong>Phone</strong>} secondary={
@@ -52,10 +52,10 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText
                                             primary={<strong>Opening hours</strong>}
                                             secondary={
-                                                <p style={{ marginBottom: "0 !important" }}>
+                                                <span style={{ marginBottom: "0 !important" }}>
                                                     Mon - Sat 09 am - 06 pm <br />
                                                     Sunday &nbsp;&nbsp;&nbsp; 09 am - 03 pm
-                                                </p>
+                                                </span>
                                             }
                                         />
                                     </ListItem>
@@ -63,15 +63,15 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         <ListItemText primary={<strong>We are Open 7 Days.</strong>} />
                                     </ListItem>
                                 </List>
-                                <Box px={2} mt={1} sx={{
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: { xs: 'center', lg: 'flex-start' },
-                                    justifyContent: 'center',
-                                    maxWidth: '400px'
-                                }}>
-                                    <div className="sectional-heading2">Scan for Direction</div>
-                                    <Box >
+                                <Box px={2} mt={1}>
+                                    <div className="sectional-heading2 text-start">Scan for Direction</div>
+                                    <Box sx={{
+                                        display: 'flex',
+                                        flexDirection: 'column',
+                                        alignItems: { xs: 'center', md: "flex-start", lg: 'flex-start' },
+                                        justifyContent: 'center',
+                                        maxWidth: '350px'
+                                    }}>
                                         <img src={Scan.src} alt="scan" style={{ maxWidth: "100%" }} />
                                     </Box>
                                 </Box>
@@ -82,7 +82,6 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                         <Box mt={5} className={`${router.pathname !== "/service/wisdom-teeth-removal" ? Styles.fixedService : null} order-lg-1 order-0`}>
                             <Box py={1.8} style={{ backgroundColor: "#115278", borderRadius: "1rem 1rem 0 0" }}>
                                 <div className="sectional-heading1 text-white text-center">Services</div>
-                                {/* <SectionalHeading variant="h5" align="center" title="Services" color="#fff" /> */}
                             </Box>
                             <Box p={3} style={{ backgroundColor: "#11527826", borderRadius: "0 0 1rem 1rem" }}>
                                 {services.map((service, index) => (

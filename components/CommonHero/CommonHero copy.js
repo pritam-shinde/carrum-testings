@@ -195,7 +195,7 @@ const CommonHero = ({
         </Swiper>
       ) : (
         <Box
-          sx={{
+          style={{
             backgroundImage: `url(${bg.src})`,
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -204,7 +204,6 @@ const CommonHero = ({
           className="custom-padding-top-hero"
         ></Box>
       )}
-
       <Box
         style={{
           display: "flex",
