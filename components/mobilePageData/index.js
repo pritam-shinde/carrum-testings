@@ -5,8 +5,9 @@ import StainedTeeth from "../../public/dental-problems-img/stained teeth/Stained
 import SevereToothache from "../../public/dental-problems-img/severe toothache/Severe_Toothache_01.png";
 import KnockedOutTooth from "../../public/dental-problems-img/knocked out tooth/Knocked_Out_Tooth_01.png";
 import DrySocket from "../../public/dental-problems-img/dry socket/Dry_socket_03.png";
-import CrookedTeeth from "../../public/dental-problems-img/crooked teeth/Crooked_Teeth_01.png";
-import ChippedOrCrackedTooth from "../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_01.png";
+import CrookedTeeth from "../../public/dental-problems-img/crooked teeth/Crooked_Teeth_01.png"; 
+import ChippedOrCrackedTooth from "../../public/carrum-new/banner/cracked-tooth.jpg";
+// import ChippedOrCrackedTooth from "../../public/dental-problems-img/chipped or cracked tooth/Chipped_or_Cracked_Tooth_01.png";
 import GumDisease from "../../public/dental-problems-img/gum disease/Gum_Disease_01.png";
 import DentalAbscess from "../../public/dental-problems-img/dental abscess/Dental_Abscess_01.png";
 import BiteProblems from "../../public/dental-problems-img/bite problems/Bite_problems_01.png";
