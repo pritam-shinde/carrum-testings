@@ -10,7 +10,7 @@ const SectionalHeading = ({ variant, align, color, title, fontSize, style }) => 
     <Typography
       className="SectionalHeading"
       variant={variant}
-      align={textAlign} // Use the conditionally determined alignment
+      align={textAlign}  
       style={{ color: color, fontSize, ...style }}
     >
       {title}

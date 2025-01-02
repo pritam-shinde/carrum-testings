@@ -36,10 +36,10 @@ const AdvantageSecNew = () => {
                                 color="#000"
                                 title="Our Advantage"
                                 fontSize="clamp(40px,5vw,75px) !important"
+                                style={{  fontSize:"clamp(40px,5vw,75px) !important"}}
                             />
                         </Box>
                     </Grid>
-
                     <Grid
                         container
                         spacing={4}

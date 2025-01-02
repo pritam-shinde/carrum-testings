@@ -24,6 +24,11 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="jT613v_6huP5m9TPQAwkZI-Iehyg2TBmgOnavXJAeeA" />
         <link rel="canonical" href={canonicalUrl} />
+
+          {/* <link
+            href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap"
+            rel="stylesheet"
+          /> */}
         <script type="application/ld+json">
           {
             JSON.stringify({
