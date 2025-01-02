@@ -11,8 +11,11 @@ import ToothDecay from "../../../public/dental-problems-img/severe toothache/Gum
 // import BannerSevereToothache from "../../../public/dental-problems-img/severe toothache/Severe_Toothache_banner.jpg"
 import BannerSevereToothache from "../../../public/carrum-new/banner/severe-toothache.jpg";
 
-
 const SevereToothache = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/severe-toothache", title: 'Severe Toothaches' }
+      ] 
     return (
         <>
             <Head>
@@ -22,7 +25,7 @@ const SevereToothache = () => {
             </Head>
             <CommonHero
                 bg={BannerSevereToothache}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Severe Toothache"
                 align="left"
                 color="#ccc"

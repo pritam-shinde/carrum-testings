@@ -15,16 +15,20 @@ import chippedTooth_Banner from "../../../public/carrum-new/banner/cracked-tooth
 
 
 const ChippedTooth = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/chipped-or-cracked-tooth", title: 'Chipped or Cracked Teeth' }
+      ] 
     return (
         <>
             <Head>
-                <title>Get Solutions for Chipped or Cracked Tooth l Carrum Down Dental</title>
+                <title>Get Solutions for Chipped or Cracked Tooth | Carrum Down Dental</title>
                 <meta name="description" content="Find Effective Solutions for Chipped or Cracked Teeth at Carrum Downs Dental. Learn about the causes & explore our expert treatments to restore your smile & oral health." />
                 <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={chippedTooth_Banner}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Chipped Or Cracked Tooth"
                 align="left"
                 color="#fff"

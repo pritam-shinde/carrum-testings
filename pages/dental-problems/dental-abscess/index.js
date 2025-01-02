@@ -14,6 +14,10 @@ import Head from 'next/head';
 import dentalAbscess4 from "../../../public/carrum-new/banner/dental-abscess.jpg";
 
 const DentalAbscess = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/dental-abscess", title: 'Dental Abscess' }
+      ] 
     return (
         <>
             <Head>
@@ -23,7 +27,7 @@ const DentalAbscess = () => {
             </Head>
             <CommonHero
                 bg={dentalAbscess4}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Dental Abscess"
                 align="left"
                 color="#ccc" />

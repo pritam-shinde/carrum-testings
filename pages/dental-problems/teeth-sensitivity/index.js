@@ -14,6 +14,10 @@ import BannerTeethSensitivity from "../../../public/carrum-new/banner/sensitivit
 
 
 const teethSensitivity = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/teeth-sensitivity", title: 'Teeth Sensitivity' }
+      ] 
     return (
         <>
             <Head>
@@ -23,7 +27,7 @@ const teethSensitivity = () => {
             </Head>
             <CommonHero
                 bg={BannerTeethSensitivity}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Teeth Sensitivity"
                 align="left"
                 color="#ccc"

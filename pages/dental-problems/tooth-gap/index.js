@@ -14,6 +14,10 @@ import Head from "next/head";
 import BannerToothGap from "../../../public/carrum-new/banner/gap-in-teeth.jpg";
 
 const ToothGap = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/tooth-gap", title: 'Tooth Gap' }
+      ] 
     return (
         <>
             <Head>
@@ -21,7 +25,7 @@ const ToothGap = () => {
                 <meta name="description" content="Say Goodbye to Teeth Gaps with Carrum Downs Dental. Explore our effective solutions to close the gaps in your smile and achieve a more confident and healthy set of teeth." />
                 <meta name="robots" content="index" />
             </Head>
-            <CommonHero bg={BannerToothGap} breadcrumb={null} title="Tooth Gaps" align="left" color="#ccc" />
+            <CommonHero bg={BannerToothGap} breadcrumb={breadcrumb} title="Tooth Gaps" align="left" color="#ccc" />
             <section
                 className="teeth-missing-section1"
                 style={{

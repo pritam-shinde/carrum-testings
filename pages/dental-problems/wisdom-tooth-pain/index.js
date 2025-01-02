@@ -13,6 +13,10 @@ import BannerWisdom from "../../../public/carrum-new/banner/wisdom-teeth-pain.jp
 
 
 const WisdomToothPain = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/wisdom-tooth-pain", title: 'Wisdom Tooth Pain' }
+      ] 
     return (
         <>
             <Head>
@@ -22,11 +26,10 @@ const WisdomToothPain = () => {
             </Head>
             <CommonHero
                 bg={BannerWisdom}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Wisdom Tooth Pain"
                 align="left"
-                // color="#fff"
-                color="#ccc"
+                color="#fff"
             />
             <section
                 className="teeth-missing-section1"

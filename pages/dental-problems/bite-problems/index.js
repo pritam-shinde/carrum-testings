@@ -15,6 +15,10 @@ import BiteProblemsBanner from "../../../public/carrum-new/banner/bite-problem.j
 import Link from 'next/link';
 
 const WisdomToothPain = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/bite-problems", title: 'Bite Problems' }
+      ] 
     return (
         <>
             <Head>
@@ -24,11 +28,10 @@ const WisdomToothPain = () => {
             </Head>
             <CommonHero
                 bg={BiteProblemsBanner}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Bite Problems"
                 align="left"
-                color="#fff"
-            // color="#ccc"
+                color="#fff" 
             />
             <section className='bite-problems-section1' style={{
                 backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',

@@ -37,6 +37,7 @@ const FooterNew = () => {
                 alignItems={"center"}
                 justifyContent={"space-between"}
                 flexWrap={"wrap"}
+                paddingTop={2}
               >
                 <Box sx={{
                   maxWidth: { xs: "100%", sm: "320px" },

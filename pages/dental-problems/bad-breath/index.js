@@ -17,6 +17,10 @@ import BannerBadBreath from "../../../public/carrum-new/banner/bad-breath.jpg";
 
 
 const BadBreath = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/bad-breath", title: 'Bad Breath' }
+      ]    
     return (
         <>
             <Head>
@@ -26,10 +30,11 @@ const BadBreath = () => {
             </Head>
             <CommonHero
                 bg={BannerBadBreath}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Bad Breath"
                 align="left"
                 color="#fff" />
+
             <section className='bad-breath-section1' style={{
                 backgroundColor: "#1ebdb6", marginBottom: "2rem", position: 'relative',
                 paddingTop: '100px',

@@ -12,6 +12,10 @@ import Head from 'next/head';
 import Bruxism_banner from "../../../public/carrum-new/banner/bruxism-bg.jpg";
 
 const Bruxism = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/bruxism", title: 'Bruxism' }
+      ] 
     return (
         <>
             <Head>
@@ -21,7 +25,7 @@ const Bruxism = () => {
             </Head>
             <CommonHero
                 bg={Bruxism_banner}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Bruxism"
                 align="left"
                 color="#fff"

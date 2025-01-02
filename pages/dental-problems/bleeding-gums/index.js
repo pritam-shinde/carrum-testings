@@ -12,6 +12,10 @@ import ScalingNCleaning from '../../../public/dental-problems-img/bleeding gums/
 import bleedingGumsBanner from "../../../public/carrum-new/banner/bleeding-tooth.jpg";
 
 const WisdomToothPain = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/bleeding-gums", title: 'Bleeding Gums' }
+      ] 
     return (
         <>
             <Head>
@@ -21,7 +25,7 @@ const WisdomToothPain = () => {
             </Head>
             <CommonHero
                 bg={bleedingGumsBanner}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Bleeding Gums"
                 align="left"
                 color="#ccc"

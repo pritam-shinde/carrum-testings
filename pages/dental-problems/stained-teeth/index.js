@@ -15,6 +15,10 @@ import StainedBanner from "../../../public/carrum-new/banner/stained-teeth.jpg";
 
 
 const StainedTeeth = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/stained-teeth", title: 'Stained Teeth' }
+      ] 
     return (
         <>
             <Head>
@@ -24,7 +28,7 @@ const StainedTeeth = () => {
             </Head>
             <CommonHero
                 bg={StainedBanner}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Stained Teeth"
                 align="left"
                 color="#fff"

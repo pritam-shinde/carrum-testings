@@ -14,16 +14,20 @@ import Head from 'next/head';
 import crookedTeeth_banner from "../../../public/carrum-new/banner/crooked-tooth.jpg";
 
 const CrookedTeeth = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/crooked-teeth", title: 'Crooked Teeth' }
+      ] 
     return (
         <>
             <Head>
-                <title>Get Your Crooked Teeth Straightened l Carrum Down Dental</title>
+                <title>Get Your Crooked Teeth Straightened | Carrum Down Dental</title>
                 <meta name="description" content="Transform Your Smile with Crooked Teeth Treatment at Carrum Downs Dental. Explore our range of solutions designed to straighten teeth and enhance your oral health." />
                 <meta name="robots" content="index" />
             </Head>
             <CommonHero
                 bg={crookedTeeth_banner}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Crooked Teeth"
                 align="left"
                 color="#fff"

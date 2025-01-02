@@ -11,6 +11,10 @@ import Care from "../../../public/dental-problems-img/dry socket/Urgent_Dental_C
 import BannerDrySocket from "../../../public/carrum-new/banner/dental-abscess2.jpg";
 
 const DrySocket = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/dry-socket", title: 'Dry Socket' }
+      ] 
     return (
         <>
             <Head>
@@ -18,7 +22,7 @@ const DrySocket = () => {
                 <meta name="description" content="A dry socket may develop a few days following tooth extraction. Know more about dry sockets. Contact Carrum Downs Dental for more Dental problems and good oral health." />
                 <meta name="robots" content="index" />
             </Head>
-            <CommonHero bg={BannerDrySocket} breadcrumb={null} title="Dry Socket" align="left" color="#fff" />
+            <CommonHero bg={BannerDrySocket} breadcrumb={breadcrumb} title="Dry Socket" align="left" color="#fff" />
             <section
                 className="dry-socket-tooth-section1"
                 style={{

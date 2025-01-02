@@ -48,6 +48,10 @@ const index = () => {
     setSelectedTab(newValue);
   };
 
+  const breadcrumb = [
+    { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems"  }, 
+  ]
+
   return (
     <>
       <Head>
@@ -56,7 +60,7 @@ const index = () => {
         <meta name="robots" content="index" />
         {/* <link rel="canonical" href="/dental-problems/" /> */}
       </Head>
-      <CommonHero bg={Banner} breadcrumb={null} title="Dental Problems" align="left" color="#fff" />
+      <CommonHero bg={Banner} breadcrumb={breadcrumb} title="Dental Problems" align="left" color="#fff" />
       <main>
         <section>
           <section

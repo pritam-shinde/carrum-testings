@@ -14,6 +14,10 @@ import Wisdom from "../../../public/dental-problems-img/gum disease/Wisdom_Teeth
 import BannerGumDisease from "../../../public/carrum-new/banner/gum-disease.jpg";
 
 const GumDiseases = () => {
+    const breadcrumb = [
+        { id: "dental_problem_breadcrumb_1", link: "/dental-problems/", title: "Dental Problems" },
+        { id: "dental_problem_breadcrumb_2", link: "/dental-problems/gum-disease", title: 'Gum Disease' }
+      ] 
     return (
         <>
             <Head>
@@ -23,7 +27,7 @@ const GumDiseases = () => {
             </Head>
             <CommonHero
                 bg={BannerGumDisease}
-                breadcrumb={null}
+                breadcrumb={breadcrumb}
                 title="Gum Disease"
                 align="left"
                 color="#ccc"
