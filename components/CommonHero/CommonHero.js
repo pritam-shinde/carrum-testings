@@ -496,7 +496,7 @@ const CommonHero = ({
                                         {item.title !== "Services" &&
                                           index !== 0 && (
                                             <span className="arrow-right">
-                                              <KeyboardArrowRight sx={{ fill: "#fff !important" }} />{" "}
+                                              <KeyboardArrowRight sx={{ fill: "#fff !important",marginBottom:'0.14rem' }} />{" "}
                                             </span>
                                           )}
                                         {item.link !== null ? (

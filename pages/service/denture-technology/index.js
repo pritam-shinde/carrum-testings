@@ -144,10 +144,10 @@ const DentureTechnology = () => {
                                                                         <Box>
                                                                             <Grid container>
                                                                                 <Grid item xs={12} sm={6} className="pe-2">
-                                                                                    <Image src={Denture1} alt="Dentures In Carrum Downs" />
+                                                                                    <Image src={Denture1} alt="Dentures In Carrum Downs" priority/>
                                                                                 </Grid>
                                                                                 <Grid item xs={12} sm={6} className="pe-2">
-                                                                                    <Image src={Denture2} alt="Dentures In Carrum Downs" />
+                                                                                    <Image src={Denture2} alt="Dentures In Carrum Downs" priority/>
                                                                                 </Grid>
                                                                             </Grid>
                                                                             <Typography className="para">Carrum Downs Dental Group at Shop T5, 100 Hall Rd Offers a wide range of dentures to satisfy each individual patient’s specific denture needs. We work with you to determine your exact requirements and what is required to meet them. We at Carrum Downs Dental Group take pride in the quality of our Dentures.</Typography>
@@ -201,7 +201,7 @@ const DentureTechnology = () => {
                                                                                         <Typography className='para'>Digital dentures are a recent innovation that uses 3D scanning, design, and printing to fabricate a denture prosthetic. The technology enables the dentist to create more precise, comfortable, and aesthetically pleasing dentures than traditional ones. Digital dentures are designed using specialized software for greater accuracy and customization.</Typography>
                                                                                     </Grid>
                                                                                     <Grid item xs={12} md={6}>
-                                                                                        <Image src={image1} alt="girl smiling" />
+                                                                                        <Image src={image1} alt="girl smiling" priority/>
                                                                                     </Grid>
                                                                                 </Grid>
                                                                             </Box>
@@ -220,7 +220,7 @@ const DentureTechnology = () => {
                                                                             <Box mt={3}>
                                                                                 <Grid container spacing={5}>
                                                                                     <Grid item xs={12} md={6}>
-                                                                                        <Image src={implant1} alt="girl smiling" />
+                                                                                        <Image src={implant1} alt="girl smiling" priority/>
                                                                                     </Grid>
                                                                                     <Grid item xs={12} md={6}>
                                                                                         <Typography className='para'>Dental implants provide you with a means of ensuring that dentures remain firmly in position. It enables you to carry out your daily activities with confidence. An implant-supported overdenture is a denture that is held in place by implants and attached to the Many people have found dental implants procedure to secure their dentures in place to be very successful.

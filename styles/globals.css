@@ -1282,5 +1282,5 @@ a #home-link {
 button#simple-tab-0,
 button#simple-tab-1,
 button#simple-tab-2 {
-  font-size: clamp(12px, 4vw, 14px) !important;
+  font-size: clamp(12px, 3vw, 14px) !important;
 }
