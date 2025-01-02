@@ -270,6 +270,8 @@ const CommonHero = ({
                                       {subMenu.label}
                                       {subMenu.subDropdown && (
                                         <KeyboardArrowRight
+                                        color="#fff"
+                                        fill="#fff"
                                           style={{
                                             marginLeft: "8px",
                                             fontSize: "18px",

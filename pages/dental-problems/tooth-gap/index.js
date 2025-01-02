@@ -1,15 +1,15 @@
-import React from "react";
-import { Grid, Typography, Button, Paper, Container, Box, List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
 import { CheckCircleOutline } from "@mui/icons-material";
-import Image from "next/image";
-import toothGaps1 from "../../../public/dental-problems-img/tooth gaps/Tooth_gaps-02.png";
-import toothGaps2 from "../../../public/dental-problems-img/tooth gaps/Tooth_gaps-01.png";
-import ClearAligners from "../../../public/dental-problems-img/tooth gaps/Clear_aligners.png";
-import DentalVeeners from "../../../public/dental-problems-img/tooth gaps/Dental_veneers.png";
-import DentalCrown from "../../../public/dental-problems-img/tooth gaps/Dental_crowns_03.png";
-import Smile from "../../../public/dental-problems-img/tooth gaps/Smile_Makeovers_01.png";
-import { BlueFilledBtn, BlueOulinedBtn, CommonHero, IconBtn, SectionalHeading } from "../../../components/components";
+import { Box, Container, Grid, List, ListItem, ListItemIcon, ListItemText, Typography } from "@mui/material";
 import Head from "next/head";
+import Image from "next/image";
+import React from "react";
+import { BlueFilledBtn, BlueOulinedBtn, CommonHero, SectionalHeading } from "../../../components/components";
+import ClearAligners from "../../../public/dental-problems-img/tooth gaps/Clear_aligners.png";
+import DentalCrown from "../../../public/dental-problems-img/tooth gaps/Dental_crowns_03.png";
+import DentalVeeners from "../../../public/dental-problems-img/tooth gaps/Dental_veneers.png";
+import Smile from "../../../public/dental-problems-img/tooth gaps/Smile_Makeovers_01.png";
+import toothGaps2 from "../../../public/dental-problems-img/tooth gaps/Tooth_gaps-01.png";
+import toothGaps1 from "../../../public/dental-problems-img/tooth gaps/Tooth_gaps-02.png";
 // import BannerToothGap from "../../../public/dental-problems-img/tooth gaps/Tooth_gaps-banner.jpg";
 import BannerToothGap from "../../../public/carrum-new/banner/gap-in-teeth.jpg";
 
@@ -27,7 +27,7 @@ const ToothGap = () => {
             </Head>
             <CommonHero bg={BannerToothGap} breadcrumb={breadcrumb} title="Tooth Gaps" align="left" color="#ccc" />
             <section
-                className="teeth-missing-section1"
+                className=""
                 style={{
                     backgroundColor: "#1ebdb6",
                     marginBottom: "2rem",
