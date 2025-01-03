@@ -70,7 +70,7 @@ const CommonSidebar = ({ isContactAvailable, isServicesAvailable }) => {
                                         flexDirection: 'column',
                                         alignItems: { xs: 'center', md: "flex-start", lg: 'flex-start' },
                                         justifyContent: 'center',
-                                        maxWidth: '350px'
+                                        maxWidth: '250px'
                                     }}>
                                         <img src={Scan.src} alt="scan" style={{ maxWidth: "100%" }} />
                                     </Box>

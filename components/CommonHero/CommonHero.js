@@ -503,7 +503,7 @@ const CommonHero = ({
                                           )}
                                         {item.link !== null ? (
                                           <Link href={item.link}>
-                                            <a className="text-white">
+                                            <a className="text-white fs-18">
                                               {item.title}
                                             </a>
                                           </Link>
