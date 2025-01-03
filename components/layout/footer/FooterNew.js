@@ -28,7 +28,7 @@ const FooterNew = () => {
         <Container
           maxWidth="xxl"
           id="service"
-        // sx={{ padding: { xs: "40px 0px 40px 0px", md: "80px 0px 80px 0px" } }}
+          // sx={{ padding: { xs: "40px 0px 40px 0px", md: "80px 0px 80px 0px" } }}
         >
           <Grid container gap={{ xs: 2, sm: 3, md: 4 }}>
             <Grid item xs={12} md={10} className="mx-auto">
@@ -39,22 +39,27 @@ const FooterNew = () => {
                 flexWrap={"wrap"}
                 paddingTop={2}
               >
-                <Box sx={{
-                  maxWidth: { xs: "100%", sm: "320px" },
-                  paddingTop: { xs: 4, sm: 4, md: 0 }
-                }}>
+                <Box
+                  sx={{
+                    maxWidth: { xs: "100%", sm: "320px" },
+                    paddingTop: { xs: 4, sm: 4, md: 0 },
+                  }}
+                >
                   <img
                     src={Logo.src}
                     alt="carrumdowns dental clinic logo"
                     style={{ width: "100%" }}
                   />
                 </Box>
-                <Stack spacing={2} flex={{ xs: 1, lg: 0.5 }}
-                >
+                <Stack spacing={2} flex={{ xs: 1, lg: 0.5 }}>
                   <Typography component="span" variant="body1" fontWeight={600}>
                     SUBSCRIBE TO NEWSLETTER
                   </Typography>
-                  <form method='post' action='https://formsubmit.co/d53a69bc539b96c63b2afdcb0767af8d' encType="multipart/form-data">
+                  <form
+                    method="post"
+                    action="https://formsubmit.co/d53a69bc539b96c63b2afdcb0767af8d"
+                    encType="multipart/form-data"
+                  >
                     <Box display="flex">
                       <TextField
                         placeholder="Enter email address"
@@ -119,22 +124,20 @@ const FooterNew = () => {
 
                     <ul style={{ listStyle: "none", padding: 0 }}>
                       {[
-                        "Home",
-                        "About Us",
-                        "Services",
-                        "Blog",
-                        "Contact Us",
-                        "Privacy Policy",
-                        "Terms and Conditions",
+                        { name: "Home", href: "/" },
+                        { name: "About Us", href: "/about-us" },
+                        { name: "Services", href: "/service" },
+                        { name: "Blog", href: "/blog" },
+                        { name: "Contact Us", href: "/contact-us" },
+                        { name: "Privacy Policy", href: "/privacy-policy" },
+                        {
+                          name: "Terms and Conditions",
+                          href: "/terms-and-conditions",
+                        },
                       ].map((link, index) => (
                         <li key={index}>
-                          <a
-                            href={`/${link
-                              .replace(/\s+/g, "-")
-                              .toLowerCase()}/`}
-                            className="text-dark fw-normal"
-                          >
-                            {link}
+                          <a href={link.href} className="text-dark fw-normal">
+                            {link.name}
                           </a>
                         </li>
                       ))}
@@ -256,14 +259,15 @@ const FooterNew = () => {
                 align="center"
                 paddingBottom={{ xs: 12, sm: 4, md: 0 }}
               >
-                Copy Right {new Date().getFullYear()} | <Link href="/">
+                Copy Right {new Date().getFullYear()} |{" "}
+                <Link href="/">
                   <a className="text-dark">carrumdownsdental.com.au</a>
                 </Link>
               </Typography>
             </Grid>
           </Grid>
         </Container>
-      </footer >
+      </footer>
     </>
   );
 };
