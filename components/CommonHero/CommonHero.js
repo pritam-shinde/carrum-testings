@@ -236,13 +236,15 @@ const CommonHero = ({
                       return (
                         <li
                           key={index}
-                          className={`nav-item ${menu.dropdown ? "dropdown" : ""
-                            }`}
+                          className={`nav-item ${
+                            menu.dropdown ? "dropdown" : ""
+                          }`}
                         >
                           <Link href={menu.href}>
                             <a
-                              className={`text-white nav-link ${menu.dropdown ? "dropdown-toggle" : ""
-                                }`}
+                              className={`text-white nav-link ${
+                                menu.dropdown ? "dropdown-toggle" : ""
+                              }`}
                             >
                               {menu.label}
                             </a>
@@ -255,34 +257,37 @@ const CommonHero = ({
                                   totalColumnCount === 1 || screenWidth < 768
                                     ? 1
                                     : screenWidth < 1160
-                                      ? 2
-                                      : totalColumnCount === 3 ||
-                                        screenWidth < 1160
-                                        ? 3
-                                        : totalColumnCount,
+                                    ? 2
+                                    : totalColumnCount === 3 ||
+                                      screenWidth < 1160
+                                    ? 3
+                                    : totalColumnCount,
                               }}
                             >
                               {menu.dropdown.map((subMenu, subIndex) => (
-                                <li key={subIndex} style={{ position: "relative" }}>
+                                <li
+                                  key={subIndex}
+                                  style={{ position: "relative" }}
+                                >
                                   <Link href={subMenu.href}>
                                     <a className="dropdown-item text-white fs-15">
                                       {subMenu.label}
                                       {subMenu.subDropdown && (
                                         <KeyboardArrowRight
-                                        color="#fff"
-                                        fill="#fff"
+                                          color="#fff"
+                                          fill="#fff"
                                           style={{
                                             marginLeft: "8px",
                                             fontSize: "18px",
                                             transform: "rotate(90deg)",
-                                            color: "#fff !important"
+                                            color: "#fff !important",
                                           }}
                                         />
                                       )}
                                     </a>
                                   </Link>
                                   {subMenu.subDropdown && (
-                                    <ul className="dropdown-menu2" >
+                                    <ul className="dropdown-menu2">
                                       {subMenu.subDropdown.map(
                                         (subSubMenu, subSubIndex) => (
                                           <li key={subSubIndex}>
@@ -380,7 +385,7 @@ const CommonHero = ({
                               </div>
                             </div>
 
-                            <div className="col-12 col-sm-6" >
+                            <div className="col-12 col-sm-6">
                               <div
                                 className="card text-white p-3 h-100 d-flex justify-content-between align-items-start mob-width-hero"
                                 style={{
@@ -488,8 +493,9 @@ const CommonHero = ({
                                     {breadcrumb.map((item, index) => (
                                       <li
                                         key={item.id}
-                                        className={`breadcrumb-item ${item.link === null ? "active" : ""
-                                          }`}
+                                        className={`breadcrumb-item ${
+                                          item.link === null ? "active" : ""
+                                        }`}
                                         aria-current={
                                           item.link === null ? "page" : null
                                         }
@@ -497,7 +503,12 @@ const CommonHero = ({
                                         {item.title !== "Services" &&
                                           index !== 0 && (
                                             <span className="arrow-right">
-                                              <KeyboardArrowRight sx={{ fill: "#fff !important",marginBottom:'0.14rem' }} />{" "}
+                                              <KeyboardArrowRight
+                                                sx={{
+                                                  fill: "#fff !important",
+                                                  marginBottom: "0.14rem",
+                                                }}
+                                              />{" "}
                                             </span>
                                           )}
                                         {item.link !== null ? (
@@ -536,7 +547,6 @@ const CommonHero = ({
                     </Box>
                   </>
                 )}
-
               </Stack>
             </Grid>
           </Grid>
@@ -546,7 +556,12 @@ const CommonHero = ({
       {/* Social */}
       <Stack
         // sx={{ position: "absolute", top: "50%", right: 0, zIndex: 1 }}
-        sx={{ position: "absolute", top: { xs: "36%", sm: "36%", md: "50%", lg: "50%" }, right: { xs: 0, md: 0, lg: 0 }, zIndex: 1 }}
+        sx={{
+          position: "absolute",
+          top: { xs: "36%", sm: "36%", md: "50%", lg: "50%" },
+          right: { xs: 0, md: 0, lg: 0 },
+          zIndex: 1,
+        }}
         gap={1.5}
         paddingX={{ xs: 2, md: 4 }}
         className="d-none d-xl-flex"
@@ -625,7 +640,7 @@ const CommonHero = ({
           </svg>
         </a>
       </Stack>
-    </Container >
+    </Container>
   );
 };
 

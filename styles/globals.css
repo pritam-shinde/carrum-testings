@@ -1285,6 +1285,10 @@ button#simple-tab-2 {
   font-size: clamp(12px, 3vw, 14px) !important;
 }
 
- .dental-problem-links:hover{
+.dental-problem-links:hover{
   color:var(--light-blue) !important;
  }
+
+.fs-mainpage{
+  font-size: clamp(14px, 2vw, 16px) !important;
+}
