@@ -150,44 +150,30 @@ const FooterNew = () => {
                     {[
                       {
                         title: "Monday",
-                        // timing: "9:00am - 6:00pm" ,
-                        // title: "MON",
                         timing: "9AM - 6PM",
                       },
                       {
                         title: "Tuesday",
-                        // timing: "9:00am - 6:00pm" ,
-                        // title: "TUE",
                         timing: "9AM - 6PM",
                       },
                       {
                         title: "Wednesday",
-                        // timing: "9:00am - 6:00pm" ,
-                        // title: "WED",
                         timing: "9AM - 6PM",
                       },
                       {
                         title: "Thursday",
-                        // timing: "9:00am - 6:00pm" ,
-                        // title: "THU",
                         timing: "9AM - 6PM",
                       },
                       {
                         title: "Friday",
-                        // timing: "9:00am - 6:00pm" ,
-                        // title: "FRI",
                         timing: "9AM - 6PM",
                       },
                       {
                         title: "Saturday",
-                        // timing: "9:00am - 6:00pm" ,
-                        // title: "SAT",
                         timing: "9AM - 6PM",
                       },
                       {
                         title: "Sunday",
-                        // timing: "9:00am - 3:00pm" ,
-                        // title: "SUN",
                         timing: "9AM - 3PM",
                       },
                     ].map((x, index) => (
