@@ -15,6 +15,12 @@ import teethCleaning from '../../public/Services/teeth-cleaning-01.png';
 import teethWhitening from '../../public/Services/teeth-whitening-01.png';
 import veneers from '../../public/Services/veneers-01.png';
 import Wisdom from '../../public/Services/wisdom-teeth-removal-01.png';
+import DigitalDenture from '../../public/Services/digital-dentures.png';
+import ImplantDenture from "../../public/Services/implant-supported-denture.png"
+import InvisalignOpen from "../../public/Services/invisalign-open-day.png"
+import SleepDentistry from "../../public/Services/sleep-dentistry.png"
+import SmileDesign from "../../public/Services/smile-design.png"
+import DentureTechnology from "../../public/Services/denture-technology.png"
 
 const Service = () => {
 
@@ -136,7 +142,7 @@ const Service = () => {
                                                     title: "Invisalign Open Day",
                                                     link: "/service/invisalign-open-day/",
                                                     excerpt: "Explore Invisalign and enjoy exclusive offers on our open day!",
-                                                    image: toothFilling,
+                                                    image: InvisalignOpen,
                                                     anchor: null
                                                 },
                                                 {
@@ -144,7 +150,7 @@ const Service = () => {
                                                     title: "Smile Design",
                                                     link: "/service/smile-design/",
                                                     excerpt: "Achieve your dream smile with personalized design solutions!",
-                                                    image: toothFilling,
+                                                    image: SmileDesign,
                                                     anchor: null
                                                 },
                                                 {
@@ -152,7 +158,7 @@ const Service = () => {
                                                     title: "Digital Dentures",
                                                     link: "/service/digital-dentures/",
                                                     excerpt: "Experience comfort and precision with advanced digital dentures!",
-                                                    image: toothFilling,
+                                                    image: DigitalDenture,
                                                     anchor: null
                                                 },
                                                 {
@@ -160,7 +166,7 @@ const Service = () => {
                                                     title: "Implant Supported Denture",
                                                     link: "/service/implant-supported-denture/",
                                                     excerpt: "Enjoy stability and confidence with implant-supported dentures!",
-                                                    image: toothFilling,
+                                                    image: ImplantDenture,
                                                     anchor: null
                                                 },
                                                 {
@@ -168,7 +174,7 @@ const Service = () => {
                                                     title: "Denture Technology",
                                                     link: "/service/denture-technology/",
                                                     excerpt: "Discover innovative solutions with advanced denture technology.",
-                                                    image: toothFilling,
+                                                    image: DentureTechnology,
                                                     anchor: null
                                                 },
                                                 {
@@ -176,7 +182,7 @@ const Service = () => {
                                                     title: "Sleep Dentistry",
                                                     link: "/service/sleep-dentistry/",
                                                     excerpt: "Experience stress-free dental care with comfortable sleep dentistry.",
-                                                    image: toothFilling,
+                                                    image: SleepDentistry,
                                                     anchor: null
                                                 },
                                             ].map(item => <Grid item key={item.id} xs={12} sm={6} md={4}>
