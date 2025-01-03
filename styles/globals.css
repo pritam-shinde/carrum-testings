@@ -1284,3 +1284,7 @@ button#simple-tab-1,
 button#simple-tab-2 {
   font-size: clamp(12px, 3vw, 14px) !important;
 }
+
+ .dental-problem-links:hover{
+  color:var(--light-blue) !important;
+ }

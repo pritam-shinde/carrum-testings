@@ -233,7 +233,6 @@ const CommonHero = ({
                       const totalColumnCount = menu.dropdown
                         ? Math.ceil(menu.dropdown.length / 6)
                         : 0;
-
                       return (
                         <li
                           key={index}
