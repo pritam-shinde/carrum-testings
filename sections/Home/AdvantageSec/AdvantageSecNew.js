@@ -42,7 +42,10 @@ const AdvantageSecNew = () => {
                 component="div"
                 variant="h2"
                 className="text-dark text-start text-md-center fw-semibold"
-                style={{ fontSize: "clamp(40px,5vw,75px) !important" }}
+                style={{
+                  fontSize: "clamp(40px,5vw,75px) !important",
+                  fontFamily: "var(--heading-font) !important;",
+                }}
               >
                 Our Advantage
               </Typography>

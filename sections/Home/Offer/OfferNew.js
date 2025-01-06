@@ -89,7 +89,10 @@ const OfferNew = () => {
               component="div"
               variant="h2"
               className="text-dark-blue text-start text-md-center fw-semibold px-4 px-md-0"
-              style={{ fontSize: "clamp(40px,5vw,75px) !important" }}
+              style={{
+                fontSize: "clamp(40px,5vw,75px) !important",
+                fontFamily: "var(--heading-font) !important;",
+              }}
             >
               Latest Offer
             </Typography>
