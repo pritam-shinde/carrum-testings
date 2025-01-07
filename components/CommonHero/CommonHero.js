@@ -20,7 +20,7 @@ const navbarMenu = [
     dropdown: null,
   },
   {
-    label: "About us",
+    label: "About Us",
     href: "/about-us/",
     dropdown: [
       { label: "Patient Referral Program", href: "/referral-program/" },
@@ -396,7 +396,7 @@ const CommonHero = ({
                                   borderRadius: "12px",
                                 }}
                               >
-                                <p className="mb-0 fs-4 d-flex flex-column fw-normal">
+                                <p className="mb-0 fs-4 d-flex flex-column fw-semibold">
                                   <span>Or Call</span>
                                   <span>03 - 9782 1200</span>
                                 </p>

@@ -256,7 +256,12 @@ const FooterNew = () => {
               >
                 Copyright {new Date().getFullYear()} |{" "}
                 <Link href="/">
-                  <a className="text-dark">carrumdownsdental.com.au</a>
+                  <a
+                    className="text-dark"
+                    style={{ fontWeight: "500 !important", lineHeight: "30px" }}
+                  >
+                    carrumdownsdental.com.au
+                  </a>
                 </Link>
               </Typography>
             </Grid>
