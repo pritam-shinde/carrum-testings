@@ -47,7 +47,7 @@ const AboutNew = () => {
                   Welcome to Carrum Downs Dental at Shop T5, Hall Road!
                 </Typography>
                 <p className="fs-18 text-light" style={{ fontWeight: 500 }}>
-                  Most Trusted Family Dentist in Carrum downs
+                  Most Trusted Family Dentist in Carrum Downs
                 </p>
               </Box>
               <p className="fs-18 text-light line-spacing">

@@ -23,13 +23,13 @@ const navbarMenu = [
     label: "About us",
     href: "/about-us/",
     dropdown: [
-      { label: "Patient referral program", href: "/referral-program/" },
-      { label: "Payment plan", href: "/payment-plan/" },
-      { label: "New technologies", href: "/new-technologies/" },
+      { label: "Patient Referral Program", href: "/referral-program/" },
+      { label: "Payment Plan", href: "/payment-plan/" },
+      { label: "New Technologies", href: "/new-technologies/" },
       { label: "Offer", href: "/offer/" },
-      { label: "Meet our team", href: "/meet-our-team/" },
+      { label: "Meet Our Team", href: "/meet-our-team/" },
       {
-        label: "Access my super",
+        label: "Access My Super",
         href: "/superannuation-to-pay-for-dental-treatment/",
       },
       {
@@ -42,67 +42,67 @@ const navbarMenu = [
     label: "Services",
     href: "/service/",
     dropdown: [
-      { label: "Missing teeth", href: "/service/missing-teeth/" },
-      { label: "Wisdom teeth removal", href: "/service/wisdom-teeth-removal/" },
-      { label: "Child benefit", href: "/service/child-benefit/" },
-      { label: "Dental implants", href: "/service/dental-implants/" },
+      { label: "Missing Teeth", href: "/service/missing-teeth/" },
+      { label: "Wisdom Teeth Removal", href: "/service/wisdom-teeth-removal/" },
+      { label: "Child Benefit", href: "/service/child-benefit/" },
+      { label: "Dental Implants", href: "/service/dental-implants/" },
       { label: "Denture", href: "/service/dentures/" },
-      { label: "Teeth whitening", href: "/service/teeth-whitening/" },
-      { label: "Crown and bridges", href: "/service/crowns-and-bridge/" },
+      { label: "Teeth Whitening", href: "/service/teeth-whitening/" },
+      { label: "Crown And Bridges", href: "/service/crowns-and-bridge/" },
       { label: "Veneers", href: "/service/veneers/" },
       {
         label: "Invisalign",
         href: "/service/invisalign/",
         subDropdown: [
           {
-            label: "Invisalign open day",
+            label: "Invisalign Open Day",
             href: "/service/invisalign-open-day/",
           },
         ],
       },
-      { label: "Root canal", href: "/service/root-canal/" },
-      { label: "Teeth cleaning", href: "/service/teeth-cleaning/" },
-      { label: "Dental emergency", href: "/service/dental-emergency/" },
-      { label: "Tooth filling", href: "/service/tooth-fillings/" },
-      { label: "Smile design", href: "/service/smile-design/" },
-      { label: "Digital dentures", href: "/service/digital-dentures/" },
+      { label: "Root Canal", href: "/service/root-canal/" },
+      { label: "Teeth Cleaning", href: "/service/teeth-cleaning/" },
+      { label: "Dental Emergency", href: "/service/dental-emergency/" },
+      { label: "Tooth Filling", href: "/service/tooth-fillings/" },
+      { label: "Smile Design", href: "/service/smile-design/" },
+      { label: "Digital Dentures", href: "/service/digital-dentures/" },
       {
-        label: "Implant supported denture",
+        label: "Implant Supported Denture",
         href: "/service/implant-supported-denture/",
       },
-      { label: "Denture technology", href: "/service/denture-technology/" },
-      { label: "Sleep dentistry", href: "/service/sleep-dentistry/" },
+      { label: "Denture Technology", href: "/service/denture-technology/" },
+      { label: "Sleep Dentistry", href: "/service/sleep-dentistry/" },
     ],
   },
   {
     label: "Dental Problems",
     href: "/dental-problems/",
     dropdown: [
-      { label: "Bad breath", href: "/dental-problems/bad-breath" },
-      { label: "Bite problems", href: "/dental-problems/bite-problems" },
-      { label: "Bleeding gums", href: "/dental-problems/bleeding-gums" },
+      { label: "Bad Breath", href: "/dental-problems/bad-breath" },
+      { label: "Bite Problems", href: "/dental-problems/bite-problems" },
+      { label: "Bleeding Gums", href: "/dental-problems/bleeding-gums" },
       { label: "Bruxism", href: "/dental-problems/bruxism" },
       {
-        label: "Chipped or cracked tooth",
+        label: "Chipped Or Cracked Tooth",
         href: "/dental-problems/chipped-or-cracked-tooth",
       },
-      { label: "Crooked teeth", href: "/dental-problems/crooked-teeth" },
-      { label: "Dental abscess", href: "/dental-problems/dental-abscess" },
-      { label: "Dry socket", href: "/dental-problems/dry-socket" },
-      { label: "Gum disease", href: "/dental-problems/gum-disease" },
+      { label: "Crooked Teeth", href: "/dental-problems/crooked-teeth" },
+      { label: "Dental Abscess", href: "/dental-problems/dental-abscess" },
+      { label: "Dry Socket", href: "/dental-problems/dry-socket" },
+      { label: "Gum Disease", href: "/dental-problems/gum-disease" },
       {
-        label: "Knocked out teeth",
+        label: "Knocked Out Teeth",
         href: "/dental-problems/knocked-out-tooth",
       },
-      { label: "Severe toothache", href: "/dental-problems/severe-toothache" },
-      { label: "Stained teeth", href: "/dental-problems/stained-teeth" },
+      { label: "Severe Toothache", href: "/dental-problems/severe-toothache" },
+      { label: "Stained Teeth", href: "/dental-problems/stained-teeth" },
       {
-        label: "Teeth sensitivity",
+        label: "Teeth Sensitivity",
         href: "/dental-problems/teeth-sensitivity",
       },
-      { label: "Tooth gaps", href: "/dental-problems/tooth-gap" },
+      { label: "Tooth Gaps", href: "/dental-problems/tooth-gap" },
       {
-        label: "Wisdom tooth pain",
+        label: "Wisdom Tooth Pain",
         href: "/dental-problems/wisdom-tooth-pain",
       },
     ],
@@ -110,7 +110,7 @@ const navbarMenu = [
   {
     label: "Blog",
     href: "/blog/",
-    dropdown: [{ label: "Video gallery", href: "/video-gallery" }],
+    dropdown: [{ label: "Video Gallery", href: "/video-gallery" }],
   },
   {
     label: "Contact Us",
@@ -130,7 +130,7 @@ const slideContents = [
     title: "Family Quality Care",
     description:
       "Our team of dentist and staff always ensure patients are treated like family.",
-    buttonText: "kNOW MORE",
+    buttonText: "KNOW MORE",
     buttonLink: "/about-us/",
   },
   {
@@ -222,7 +222,7 @@ const CommonHero = ({
         >
           <Grid container>
             <Grid item xs={12} md={10} className="mx-auto">
-              <Stack gap={{ xs: 0, md: 10 }}>
+              <Stack gap={{ xs: 0, md: 8, lg: 8, xl: 10 }}>
                 <Box
                   sx={{ maxWidth: "fit-content" }}
                   className="d-none d-xl-block"

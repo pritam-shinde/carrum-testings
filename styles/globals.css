@@ -1250,7 +1250,7 @@ a #home-link {
   font-weight: 600;
   color: #000;
   text-decoration: none;
-  border: 1px solid #000;
+  border: 1px solid var(--dark-blue);
   border-radius: 6px;
   background-color: transparent;
   transition: background-color 0.3s ease, color 0.3s ease;
