@@ -75,7 +75,7 @@ const navbarMenu = [
     ],
   },
   {
-    label: "Dental problems",
+    label: "Dental Problems",
     href: "/dental-problems/",
     dropdown: [
       { label: "Bad breath", href: "/dental-problems/bad-breath" },
@@ -113,7 +113,7 @@ const navbarMenu = [
     dropdown: [{ label: "Video gallery", href: "/video-gallery" }],
   },
   {
-    label: "Contact us",
+    label: "Contact Us",
     href: "/contact-us/",
   },
 ];
@@ -123,21 +123,21 @@ const slideContents = [
     title: "Experienced Service",
     description:
       "Our dentists are fully qualified and have  years of Experience in providing quality dental care.",
-    buttonText: "Know More",
+    buttonText: "KNOW MORE",
     buttonLink: "/about-us/",
   },
   {
     title: "Family Quality Care",
     description:
       "Our team of dentist and staff always ensure patients are treated like family.",
-    buttonText: "know More",
+    buttonText: "kNOW MORE",
     buttonLink: "/about-us/",
   },
   {
     title: "Child Dental Benefit Scheme",
     description:
       "Eligible families receive free treatments for up to 1000$. Call us to find out if you are eligible.",
-    buttonText: "Know More",
+    buttonText: "KNOW MORE",
     buttonLink: "/service/child-benefit/",
   },
 ];
@@ -346,7 +346,7 @@ const CommonHero = ({
                                   borderRadius: "12px",
                                 }}
                               >
-                                <p className="mb-0 fs-4 d-flex flex-column fw-normal">
+                                <p className="mb-0 fs-4 d-flex flex-column fw-semibold">
                                   <span>Book Online</span>
                                   <span>Appointment</span>
                                 </p>

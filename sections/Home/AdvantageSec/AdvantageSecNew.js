@@ -19,7 +19,7 @@ const AdvantageSecNew = () => {
       className="advantage-bg"
       sx={{
         backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.1) 50%, transparent 60%), url("/carrum-new/our-advantage.jpg")`,
-        backgroundSize: "100% 60%", // Make the image cover horizontally but only half vertically
+        backgroundSize: "100% 55%", // Make the image cover horizontally but only half vertically
         backgroundPosition: "top center", // Align the image to the top
         backgroundRepeat: "no-repeat",
         margin: { xs: "40px 0px 40px 0px", md: "80px 0px 80px 0px" },
@@ -29,22 +29,13 @@ const AdvantageSecNew = () => {
         <Grid container justifyContent="center">
           <Grid item xs={12}>
             <Box py={2}>
-              {/* <SectionalHeading
-                                variant="h2"
-                                align="center"
-                                color="#000"
-                                title="Our Advantage"
-                                fontSize="clamp(40px,5vw,75px) !important"
-                                style={{  fontSize:"clamp(40px,5vw,75px) !important"}}
-                            /> */}
-
               <Typography
                 component="div"
                 variant="h2"
                 className="text-dark text-start text-md-center fw-semibold"
                 style={{
-                  fontSize: "clamp(40px,5vw,75px) !important",
-                  fontFamily: "var(--heading-font) !important;",
+                  fontSize: "clamp(40px,4vw,75px) !important",
+                  fontFamily: "var(--heading-font) !important",
                 }}
               >
                 Our Advantage

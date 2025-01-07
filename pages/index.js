@@ -9,52 +9,52 @@ import AdvantageSecNew from "../sections/Home/AdvantageSec/AdvantageSecNew";
 import { CommonHero } from "../components/components";
 
 const Home = ({ data }) => {
-    const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
 
-    useEffect(() => {
-        if (typeof window !== undefined) {
-            setShow(true);
-        } else {
-            setShow(false);
-        }
-    }, []);
+  useEffect(() => {
+    if (typeof window !== undefined) {
+      setShow(true);
+    } else {
+      setShow(false);
+    }
+  }, []);
 
-    return (
-        <>
-            <Head>
-                <title>
-                    Trusted Family Dentist in Carrum Downs | Carrum Downs Dental Clinic
-                </title>
-                <meta
-                    name="description"
-                    content="Experience the best dental treatment from Carrum Downs Dental Group. Our Dentist knowledge and skills will provide you all Dental Care under one roof."
-                />
-                <meta name="robots" content="index" />
-            </Head>
-            {/* <Hero /> */}
-            <CommonHero pathName="index" />
-            <main style={{ backgroundColor: "#F5F5F5" }}>
-                <section>
-                    <ServiceSectionNew />
-                </section>
-                <section>
-                    <AboutNew />
-                </section>
-                <section>
-                    <AdvantageSecNew />
-                </section>
-                <section>
-                    <OfferNew />
-                </section>
-                <section>
-                    <PaymentPlan />
-                </section>
-                <section>
-                    <AddressNew />
-                </section>
-            </main>
-        </>
-    );
+  return (
+    <>
+      <Head>
+        <title>
+          Trusted Family Dentist in Carrum Downs | Carrum Downs Dental Clinic
+        </title>
+        <meta
+          name="description"
+          content="Experience the best dental treatment from Carrum Downs Dental Group. Our Dentist knowledge and skills will provide you all Dental Care under one roof."
+        />
+        <meta name="robots" content="index" />
+      </Head>
+      {/* <Hero /> */}
+      <CommonHero pathName="index" />
+      <main style={{ backgroundColor: "#F5F5F5" }}>
+        <section>
+          <ServiceSectionNew />
+        </section>
+        <section>
+          <AboutNew />
+        </section>
+        <section>
+          <AdvantageSecNew />
+        </section>
+        <section>
+          <OfferNew />
+        </section>
+        <section>
+          <PaymentPlan />
+        </section>
+        <section>
+          <AddressNew />
+        </section>
+      </main>
+    </>
+  );
 };
 
 export default Home;

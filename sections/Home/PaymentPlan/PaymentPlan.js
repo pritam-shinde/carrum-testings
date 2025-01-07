@@ -51,8 +51,8 @@ const PaymentPlan = () => {
                 variant="h2"
                 className="text-dark-blue text-start text-md-center fw-semibold "
                 style={{
-                  fontSize: "clamp(40px,5vw,75px) !important",
-                  fontFamily: "var(--heading-font) !important;",
+                  fontSize: "clamp(40px,4vw,75px) !important",
+                  fontFamily: "var(--heading-font) !important",
                 }}
               >
                 Payment Options

@@ -74,7 +74,7 @@ const AddressNew = () => {
                 <h3 className="text-dark-blue m-0 pt-2 fs-2">
                   Carrum Downs Dental Group
                 </h3>
-                <Stack spacing={{ xs: 1, md: 2 }}>
+                <Stack spacing={{ xs: 1, md: 3 }}>
                   <Stack
                     flexDirection={"row"}
                     justifyContent={"between"}

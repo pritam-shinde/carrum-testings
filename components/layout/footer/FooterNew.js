@@ -52,7 +52,16 @@ const FooterNew = () => {
                   />
                 </Box>
                 <Stack spacing={2} flex={{ xs: 1, lg: 0.5 }}>
-                  <Typography component="span" variant="body1" fontWeight={600}>
+                  <Typography
+                    component="span"
+                    variant="body1"
+                    className="fw-semibold"
+                    style={{
+                      fontSize: "23px !important",
+                      lineHeight: "30px !important",
+                      fontFamily: "var(--heading-font) !important",
+                    }}
+                  >
                     SUBSCRIBE TO NEWSLETTER
                   </Typography>
                   <form
@@ -241,11 +250,11 @@ const FooterNew = () => {
             </Grid>
             <Grid item xs={12} md={10} className="mx-auto">
               <Typography
-                fontWeight={500}
                 align="center"
                 paddingBottom={{ xs: 12, sm: 4, md: 0 }}
+                style={{ fontWeight: "500 !important", lineHeight: "30px" }}
               >
-                Copy Right {new Date().getFullYear()} |{" "}
+                Copyright {new Date().getFullYear()} |{" "}
                 <Link href="/">
                   <a className="text-dark">carrumdownsdental.com.au</a>
                 </Link>

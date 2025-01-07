@@ -1258,7 +1258,7 @@ a #home-link {
 
 .view-button:hover {
   background-color: #115273;
-  color: #ffffff;
+  color: #ffffff !important;
   border-color: #115273;
 }
 
