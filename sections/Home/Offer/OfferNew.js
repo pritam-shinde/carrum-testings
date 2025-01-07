@@ -77,18 +77,11 @@ const OfferNew = () => {
     <Container maxWidth="xxl" style={{ padding: 0 }}>
       <Grid container>
         <Grid item xs={12} md={12} className="mx-auto">
-          <Box py={2}>
-            {/* <SectionalHeading
-              variant="h2"
-              align="center"
-              color="var(--dark-blue)"
-              title="Latest Offer"
-              style={{ fontSize: "clamp(40px,4vw,75px) !important" }}
-            /> */}
+          <Box py={3}>
             <Typography
               component="div"
               variant="h2"
-              className="text-dark-blue text-start text-md-center fw-semibold px-4 px-md-0"
+              className="text-dark-blue text-start text-md-center fw-semibold px-4 pb-0 px-md-0"
               style={{
                 fontSize: "clamp(40px,4vw,75px) !important",
                 fontFamily: "var(--heading-font) !important",

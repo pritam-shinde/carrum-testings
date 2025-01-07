@@ -42,7 +42,7 @@ const FooterNew = () => {
                 <Box
                   sx={{
                     maxWidth: { xs: "100%", sm: "320px" },
-                    paddingTop: { xs: 4, sm: 4, md: 0 },
+                    // paddingTop: { xs: 4, sm: 4, md: 0 },
                   }}
                 >
                   <img
@@ -134,14 +134,14 @@ const FooterNew = () => {
                     <ul style={{ listStyle: "none", padding: 0 }}>
                       {[
                         { name: "Home", href: "/" },
-                        { name: "About Us", href: "/about-us" },
-                        { name: "Services", href: "/service" },
-                        { name: "Blog", href: "/blog" },
-                        { name: "Contact Us", href: "/contact-us" },
-                        { name: "Privacy Policy", href: "/privacy-policy" },
+                        { name: "About Us", href: "/about-us/" },
+                        { name: "Services", href: "/service/" },
+                        { name: "Blog", href: "/blog/" },
+                        { name: "Contact Us", href: "/contact-us/" },
+                        { name: "Privacy Policy", href: "/privacy-policy/" },
                         {
                           name: "Terms and Conditions",
-                          href: "/terms-and-conditions",
+                          href: "/terms-and-conditions/",
                         },
                       ].map((link, index) => (
                         <li key={index}>
