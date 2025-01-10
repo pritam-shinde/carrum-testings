@@ -1293,4 +1293,25 @@ button#simple-tab-2 {
   font-size: clamp(14px, 2vw, 16px) !important;
 }
 
- 
+
+/* .dropdown-toggle:after {
+  display: inline-block;
+  margin-left: .255em;
+  vertical-align: .255em;
+  content: "";
+  border-top: .3em solid transparent;
+  border-right: 0;
+  border-bottom: .3em solid transparent;
+  border-left: .3em solid;
+} */
+
+.dropdown-toggle:after {
+  display: inline-block;
+  margin-left: .55em;
+  vertical-align: .055em;
+  content: "";
+  border-top: .3em solid transparent;
+  border-right: 0;
+  border-bottom: .3em solid transparent;
+  border-left: .3em solid;
+}
